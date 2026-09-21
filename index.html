@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Simulador psicotécnico · Práctica</title>
+<meta name="description" content="Practica razonamiento, rapidez y precisión con entrenamiento, simulacros y retos contrarreloj.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231b48da'/%3E%3Cpath d='M8 23V9h7v5h9v9z' fill='white'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="./css/styles.css">
+<script defer src="./js/timer.js"></script><script defer src="./js/resultados.js"></script><script defer src="./js/app.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Ir al contenido</a>
+<header class="topbar"><a href="#inicio" class="brand" aria-label="Simulador, inicio"><span class="brand-icon" aria-hidden="true">◫</span><span>SIMULADOR<span class="brand-sub">PSICOTÉCNICO</span></span></a><nav aria-label="Principal"><button data-view="inicio" class="nav active">Practicar</button><button data-view="historial" class="nav">Historial</button><button data-view="progreso" class="nav">Mi progreso</button></nav><span class="header-note">PRÁCTICA INDEPENDIENTE</span></header>
+<main id="main" tabindex="-1">
+<div id="notice" role="status" class="notice" hidden></div>
+<section id="inicio" class="view">
+<div class="page-heading"><div><p class="eyebrow">TU PRÓXIMO RETO EMPIEZA AQUÍ</p><h1>Entrena tu razonamiento.</h1><p class="subtitle">Entrenamiento de razonamiento, rapidez y precisión</p></div><div class="bank-label"><span id="bank-count">—</span><span>preguntas disponibles</span></div></div>
+<form id="config-form">
+<fieldset class="mode-field"><legend>01 <span>Elige cómo practicar</span></legend><div class="mode-grid">
+<label class="mode-card"><input type="radio" name="modo" value="entrenamiento" checked><span class="mode-symbol" aria-hidden="true">◎</span><strong>Entrenamiento</strong><span>Aprende a tu ritmo, con explicación después de cada respuesta.</span><span class="mode-tag">SIN LÍMITE DE TIEMPO</span></label>
+<label class="mode-card"><input type="radio" name="modo" value="simulacro"><span class="mode-symbol" aria-hidden="true">▤</span><strong>Simulacro</strong><span>Una evaluación completa. Conoce tus resultados al terminar.</span><span class="mode-tag">TIEMPO GLOBAL</span></label>
+<label class="mode-card"><input type="radio" name="modo" value="contrarreloj"><span class="mode-symbol" aria-hidden="true">◷</span><strong>Contrarreloj</strong><span>Una pregunta, pocos segundos. Pon a prueba tu agilidad.</span><span class="mode-tag">TIEMPO POR PREGUNTA</span></label>
+</div></fieldset>
+<div class="setup-grid"><section class="panel"><h2 class="step-heading">02 <span>Configura tu sesión</span></h2><div class="fields">
+<label>Tipo de prueba<select id="assessment"><option value="cognitiva">Aptitudes cognitivas</option><option value="personalidad">Personalidad y competencias</option></select></label>
+<label>Dificultad<select id="difficulty"><option>Mixta</option><option>Fácil</option><option>Media</option><option>Difícil</option><option>Muy difícil</option></select></label>
+<label>Preguntas<select id="quantity"><option value="10">10 · sesión breve</option><option value="20">20 preguntas</option><option value="30">30 preguntas</option><option value="50">50 preguntas</option><option value="100">100 preguntas</option></select></label>
+<label id="global-field" hidden>Tiempo global (minutos)<input id="minutes" type="number" min="1" max="180" value="10" step="1"></label>
+<label class="check"><input type="checkbox" id="shuffle-options" checked>Mezclar alternativas</label>
+</div><p id="availability" class="availability" aria-live="polite">Cargando banco de preguntas…</p><button type="submit" id="start" class="primary start" disabled>Comenzar entrenamiento <span aria-hidden="true">→</span></button><button id="retry" type="button" hidden>Reintentar carga</button></section>
+<aside class="session-aside"><p class="eyebrow">CADA INTENTO CUENTA</p><h2>Precisión primero.<br>Rapidez después.</h2><p id="mode-help">Lee la explicación y reconoce el patrón antes de avanzar a la siguiente pregunta.</p><div class="scoring"><span><b>+1</b>Acierto</span><span><b>−0,5</b>Error</span><span><b>0</b>Omitida</span></div><p class="small" id="personality-help">La práctica no constituye una evaluación oficial de ninguna empresa.</p></aside></div>
+</form>
+</section>
+<section id="examen" class="view" hidden>
+<div class="exam-heading"><div><p class="eyebrow" id="exam-mode"></p><h1 id="question-number" tabindex="-1"></h1></div><div class="clock"><span id="timer-label">Tiempo transcurrido</span><strong id="timer">00:00</strong></div></div>
+<div class="progress-label"><span id="answered-count"></span><span id="progress-text"></span></div><progress id="progress" value="0" max="100"></progress>
+<div class="exam-layout"><article class="panel question-panel"><div class="question-meta"><span id="category" class="badge"></span><span id="level"></span><span id="recommended"></span></div><h2 id="question-text"></h2><div id="question-image"></div><div id="options" class="options" role="group" aria-label="Alternativas"></div><div id="feedback" class="feedback" role="status" hidden></div><div class="question-actions"><button id="previous" type="button">← Anterior</button><button id="flag" type="button" aria-pressed="false">⚑ Revisar después</button><button id="next" class="primary" type="button">Siguiente →</button></div><p class="keyboard-hint">Atajos: A–D o 1–4 para responder. Enter para continuar.</p></article><aside class="panel exam-aside"><h2>Tu sesión</h2><p class="small">Selecciona un número para volver a esa pregunta en el simulacro.</p><div id="question-map" class="question-map"></div><p class="map-legend">Azul: respondida · ⚑: marcada</p><button id="finish" class="finish">Finalizar sesión</button></aside></div>
+</section>
+<section id="resultados" class="view" hidden></section>
+<section id="historial" class="view" hidden></section>
+<section id="progreso" class="view" hidden></section>
+</main>
+<footer><span>SIMULADOR PSICOTÉCNICO</span><span>Tu historial se guarda en este navegador.</span></footer>
+<dialog id="finish-dialog" aria-labelledby="confirm-title"><h2 id="confirm-title">¿Deseas finalizar la sesión?</h2><p>Podrás revisar tus respuestas al terminar.</p><div id="confirmation-stats" class="confirmation-stats"></div><div id="flagged-list"></div><p class="small">El reloj continúa mientras revisas esta confirmación.</p><div class="dialog-actions"><button id="back-to-exam">Volver al examen</button><button id="confirm-finish" class="primary">Finalizar</button></div></dialog>
+<noscript>Activa JavaScript para utilizar el simulador.</noscript>
+</body></html>
