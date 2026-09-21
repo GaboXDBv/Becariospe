@@ -4,152 +4,65 @@
     "categoria": "Series numéricas",
     "dificultad": "Difícil",
     "tipo": "texto",
-    "pregunta": "2, 6, 15, 31, 56, ¿?",
+    "pregunta": "4, 7, 13, 25, 49, ¿?",
     "imagen": "",
     "opciones": [
       {
-        "texto": "82",
+        "texto": "73",
         "imagen": ""
       },
       {
-        "texto": "87",
+        "texto": "95",
         "imagen": ""
       },
       {
-        "texto": "92",
+        "texto": "97",
         "imagen": ""
       },
       {
-        "texto": "96",
+        "texto": "99",
         "imagen": ""
       }
     ],
     "correcta": 2,
-    "explicacion": "Las diferencias son 4, 9, 16 y 25: cuadrados de 2, 3, 4 y 5. La siguiente diferencia es 6² = 36. Por tanto, 56 + 36 = 92.",
-    "tiempo": 12
+    "explicacion": "Las diferencias se duplican: 3, 6, 12, 24 y 48. Entonces 49 + 48 = 97.",
+    "tiempo": 15
   },
   {
     "id": 2,
-    "categoria": "Razonamiento lógico",
+    "categoria": "Series numéricas",
     "dificultad": "Media",
     "tipo": "texto",
-    "pregunta": "Todos los técnicos del turno A aprobaron la capacitación. Ninguna persona que aprobó la capacitación tiene el acceso bloqueado. ¿Qué se deduce necesariamente?",
+    "pregunta": "2, 5, 10, 17, 26, ¿?",
     "imagen": "",
     "opciones": [
       {
-        "texto": "Ningún técnico del turno A tiene el acceso bloqueado.",
+        "texto": "37",
         "imagen": ""
       },
       {
-        "texto": "Toda persona sin acceso bloqueado pertenece al turno A.",
+        "texto": "35",
         "imagen": ""
       },
       {
-        "texto": "Solo los técnicos del turno A aprobaron la capacitación.",
+        "texto": "39",
         "imagen": ""
       },
       {
-        "texto": "Algunos técnicos del turno A tienen el acceso bloqueado.",
+        "texto": "36",
         "imagen": ""
       }
     ],
     "correcta": 0,
-    "explicacion": "Ser técnico del turno A implica haber aprobado; haber aprobado implica no tener el acceso bloqueado. No se puede invertir esa relación.",
+    "explicacion": "Se suman impares consecutivos: 3, 5, 7, 9 y 11. Entonces 26 + 11 = 37.",
     "tiempo": 15
   },
   {
     "id": 3,
-    "categoria": "Matemática rápida",
-    "dificultad": "Media",
-    "tipo": "texto",
-    "pregunta": "Una máquina produce 180 piezas en 12 minutos. A ritmo constante, ¿cuántas piezas produce en 8 minutos?",
-    "imagen": "",
-    "opciones": [
-      {
-        "texto": "90",
-        "imagen": ""
-      },
-      {
-        "texto": "110",
-        "imagen": ""
-      },
-      {
-        "texto": "135",
-        "imagen": ""
-      },
-      {
-        "texto": "120",
-        "imagen": ""
-      }
-    ],
-    "correcta": 3,
-    "explicacion": "180 ÷ 12 = 15 piezas por minuto. En 8 minutos produce 15 × 8 = 120 piezas.",
-    "tiempo": 10
-  },
-  {
-    "id": 4,
-    "categoria": "Analogías",
-    "dificultad": "Media",
-    "tipo": "texto",
-    "pregunta": "Termómetro es a temperatura como manómetro es a…",
-    "imagen": "",
-    "opciones": [
-      {
-        "texto": "Caudal",
-        "imagen": ""
-      },
-      {
-        "texto": "Presión",
-        "imagen": ""
-      },
-      {
-        "texto": "Volumen",
-        "imagen": ""
-      },
-      {
-        "texto": "Velocidad",
-        "imagen": ""
-      }
-    ],
-    "correcta": 1,
-    "explicacion": "La relación es instrumento y magnitud que mide: el termómetro mide temperatura; el manómetro mide presión.",
-    "tiempo": 10
-  },
-  {
-    "id": 5,
-    "categoria": "Atención y concentración",
+    "categoria": "Series numéricas",
     "dificultad": "Difícil",
     "tipo": "texto",
-    "pregunta": "¿Qué código coincide exactamente con K7M2–Q9B6?",
-    "imagen": "",
-    "opciones": [
-      {
-        "texto": "K7N2–Q9B6",
-        "imagen": ""
-      },
-      {
-        "texto": "K7M2–Q9B8",
-        "imagen": ""
-      },
-      {
-        "texto": "K7M2–Q9B6",
-        "imagen": ""
-      },
-      {
-        "texto": "K7M2–O9B6",
-        "imagen": ""
-      }
-    ],
-    "correcta": 2,
-    "explicacion": "El código idéntico es K7M2–Q9B6. Los distractores cambian M por N, 6 por 8 o Q por O.",
-    "tiempo": 10
-  },
-  {
-    "id": 6,
-    "categoria": "Series numéricas",
-    "dificultad": "Muy difícil",
-    "tipo": "texto",
-    "pregunta": "3, 8, 6, 16, 12, 32, ¿?",
+    "pregunta": "3, 12, 6, 24, 12, 48, ¿?",
     "imagen": "",
     "opciones": [
       {
@@ -157,67 +70,1888 @@
         "imagen": ""
       },
       {
+        "texto": "18",
+        "imagen": ""
+      },
+      {
+        "texto": "96",
+        "imagen": ""
+      },
+      {
+        "texto": "36",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Hay dos series intercaladas que duplican sus términos: 3, 6, 12, 24 y 12, 24, 48.",
+    "tiempo": 15
+  },
+  {
+    "id": 4,
+    "categoria": "Series numéricas",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "81, 27, 30, 10, 13, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "13/3",
+        "imagen": ""
+      },
+      {
+        "texto": "10/3",
+        "imagen": ""
+      },
+      {
+        "texto": "16/3",
+        "imagen": ""
+      },
+      {
+        "texto": "3",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Se alterna dividir entre 3 y sumar 3. Después de 10 + 3 = 13 corresponde 13 ÷ 3.",
+    "tiempo": 15
+  },
+  {
+    "id": 5,
+    "categoria": "Series numéricas",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "1, 2, 6, 24, 120, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "600",
+        "imagen": ""
+      },
+      {
+        "texto": "840",
+        "imagen": ""
+      },
+      {
+        "texto": "720",
+        "imagen": ""
+      },
+      {
+        "texto": "240",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Se multiplica sucesivamente por 2, 3, 4, 5 y 6. Entonces 120 × 6 = 720.",
+    "tiempo": 15
+  },
+  {
+    "id": 6,
+    "categoria": "Series numéricas",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "5, 9, 17, 29, 45, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "61",
+        "imagen": ""
+      },
+      {
+        "texto": "69",
+        "imagen": ""
+      },
+      {
+        "texto": "65",
+        "imagen": ""
+      },
+      {
+        "texto": "63",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Las diferencias aumentan de cuatro en cuatro: 4, 8, 12, 16 y 20. Entonces 45 + 20 = 65.",
+    "tiempo": 15
+  },
+  {
+    "id": 7,
+    "categoria": "Series numéricas",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "2, 3, 5, 8, 13, 21, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "35",
+        "imagen": ""
+      },
+      {
+        "texto": "34",
+        "imagen": ""
+      },
+      {
+        "texto": "29",
+        "imagen": ""
+      },
+      {
+        "texto": "32",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Cada término es la suma de los dos anteriores: 13 + 21 = 34.",
+    "tiempo": 15
+  },
+  {
+    "id": 8,
+    "categoria": "Series numéricas",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "100, 96, 88, 76, 60, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "36",
+        "imagen": ""
+      },
+      {
         "texto": "40",
+        "imagen": ""
+      },
+      {
+        "texto": "42",
+        "imagen": ""
+      },
+      {
+        "texto": "44",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Se restan 4, 8, 12, 16 y 20. Entonces 60 − 20 = 40.",
+    "tiempo": 15
+  },
+  {
+    "id": 9,
+    "categoria": "Series numéricas",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "7, 10, 20, 23, 46, 49, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "52",
+        "imagen": ""
+      },
+      {
+        "texto": "92",
+        "imagen": ""
+      },
+      {
+        "texto": "98",
+        "imagen": ""
+      },
+      {
+        "texto": "101",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Se alterna sumar 3 y multiplicar por 2. Después de 46 + 3 = 49 corresponde 49 × 2 = 98.",
+    "tiempo": 15
+  },
+  {
+    "id": 10,
+    "categoria": "Series numéricas",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "1, 4, 13, 40, 121, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "363",
+        "imagen": ""
+      },
+      {
+        "texto": "365",
+        "imagen": ""
+      },
+      {
+        "texto": "243",
+        "imagen": ""
+      },
+      {
+        "texto": "364",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Cada término se obtiene multiplicando el anterior por 3 y sumando 1: 121 × 3 + 1 = 364.",
+    "tiempo": 15
+  },
+  {
+    "id": 11,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "El 30% de una cantidad es 54. ¿Cuál es la cantidad?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "200",
+        "imagen": ""
+      },
+      {
+        "texto": "162",
+        "imagen": ""
+      },
+      {
+        "texto": "170",
+        "imagen": ""
+      },
+      {
+        "texto": "180",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Si 0,30 × x = 54, entonces x = 54 ÷ 0,30 = 180.",
+    "tiempo": 15
+  },
+  {
+    "id": 12,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Un artículo cuesta S/ 200. Se descuenta primero 20% y luego 10% sobre el precio rebajado. ¿Cuál es el precio final?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "S/ 144",
+        "imagen": ""
+      },
+      {
+        "texto": "S/ 160",
+        "imagen": ""
+      },
+      {
+        "texto": "S/ 140",
+        "imagen": ""
+      },
+      {
+        "texto": "S/ 150",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "El primer descuento deja 200 × 0,8 = 160. El segundo deja 160 × 0,9 = 144.",
+    "tiempo": 20
+  },
+  {
+    "id": 13,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "La razón entre fichas rojas y azules es 3:5. Hay 64 fichas. ¿Cuántas son azules?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "40",
+        "imagen": ""
+      },
+      {
+        "texto": "24",
+        "imagen": ""
+      },
+      {
+        "texto": "32",
         "imagen": ""
       },
       {
         "texto": "48",
         "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Hay 3 + 5 = 8 partes. Cada parte vale 64 ÷ 8 = 8; las azules son 5 × 8 = 40.",
+    "tiempo": 15
+  },
+  {
+    "id": 14,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "El promedio de cinco números es 18. La suma de cuatro de ellos es 67. ¿Cuál es el quinto?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "18",
+        "imagen": ""
       },
       {
-        "texto": "64",
+        "texto": "21",
+        "imagen": ""
+      },
+      {
+        "texto": "27",
+        "imagen": ""
+      },
+      {
+        "texto": "23",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Los cinco suman 5 × 18 = 90. El faltante es 90 − 67 = 23.",
+    "tiempo": 15
+  },
+  {
+    "id": 15,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Cuatro equipos idénticos completan un pedido en 6 horas. ¿Cuánto tardan ocho equipos al mismo ritmo, trabajando simultáneamente?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "2 horas",
+        "imagen": ""
+      },
+      {
+        "texto": "4 horas",
+        "imagen": ""
+      },
+      {
+        "texto": "12 horas",
+        "imagen": ""
+      },
+      {
+        "texto": "3 horas",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Al duplicar equipos se reduce a la mitad el tiempo: 6 × 4 ÷ 8 = 3 horas.",
+    "tiempo": 15
+  },
+  {
+    "id": 16,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Un depósito contiene 120 L y está lleno al 40%. ¿Cuál es su capacidad?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "300 L",
+        "imagen": ""
+      },
+      {
+        "texto": "280 L",
+        "imagen": ""
+      },
+      {
+        "texto": "320 L",
+        "imagen": ""
+      },
+      {
+        "texto": "240 L",
         "imagen": ""
       }
     ],
     "correcta": 0,
-    "explicacion": "Hay dos series intercaladas. Posiciones impares: 3, 6, 12, 24. Posiciones pares: 8, 16, 32. Cada serie duplica su término anterior.",
-    "tiempo": 12
+    "explicacion": "La capacidad es 120 ÷ 0,40 = 300 L.",
+    "tiempo": 15
   },
   {
-    "id": 7,
-    "categoria": "Razonamiento espacial",
-    "dificultad": "Media",
-    "tipo": "texto_imagen",
-    "pregunta": "La flecha gira 90° en sentido horario. ¿Qué figura resulta?",
-    "imagen": "img/preguntas/flecha.svg",
-    "imagen_alt": "Flecha vertical orientada hacia arriba.",
+    "id": 17,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Un valor aumenta 25%. ¿Qué porcentaje debe disminuir después para volver al valor inicial?",
+    "imagen": "",
     "opciones": [
       {
-        "texto": "",
-        "imagen": "img/opciones/flecha_A.svg",
-        "imagen_alt": "Flecha hacia la izquierda"
+        "texto": "20%",
+        "imagen": ""
       },
       {
-        "texto": "",
-        "imagen": "img/opciones/flecha_B.svg",
-        "imagen_alt": "Flecha hacia abajo"
+        "texto": "15%",
+        "imagen": ""
       },
       {
-        "texto": "",
-        "imagen": "img/opciones/flecha_C.svg",
-        "imagen_alt": "Flecha hacia arriba"
+        "texto": "25%",
+        "imagen": ""
       },
       {
-        "texto": "",
-        "imagen": "img/opciones/flecha_D.svg",
-        "imagen_alt": "Flecha hacia la derecha"
+        "texto": "30%",
+        "imagen": ""
       }
     ],
-    "correcta": 3,
-    "explicacion": "Al girar un cuarto de vuelta en sentido horario, una flecha que apunta hacia arriba pasa a apuntar hacia la derecha.",
+    "correcta": 0,
+    "explicacion": "Si parte de 100, sube a 125. Para volver a 100 debe bajar 25 de 125: 25 ÷ 125 = 20%.",
+    "tiempo": 20
+  },
+  {
+    "id": 18,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Dos cantidades suman 84 y una es el doble de la otra. ¿Cuál es la mayor?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "42",
+        "imagen": ""
+      },
+      {
+        "texto": "56",
+        "imagen": ""
+      },
+      {
+        "texto": "28",
+        "imagen": ""
+      },
+      {
+        "texto": "63",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Si la menor es x, x + 2x = 84. Entonces x = 28 y la mayor es 56.",
+    "tiempo": 15
+  },
+  {
+    "id": 19,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Un vehículo recorre 150 km en 2 horas 30 minutos a velocidad constante. ¿Cuántos kilómetros recorre en una hora?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "65",
+        "imagen": ""
+      },
+      {
+        "texto": "75",
+        "imagen": ""
+      },
+      {
+        "texto": "60",
+        "imagen": ""
+      },
+      {
+        "texto": "50",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "2 horas 30 minutos son 2,5 horas. La velocidad es 150 ÷ 2,5 = 60 km/h.",
+    "tiempo": 15
+  },
+  {
+    "id": 20,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "En un grupo de 60 personas, 35 estudian inglés, 28 francés y 10 ambos idiomas. ¿Cuántas no estudian ninguno?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "7",
+        "imagen": ""
+      },
+      {
+        "texto": "17",
+        "imagen": ""
+      },
+      {
+        "texto": "13",
+        "imagen": ""
+      },
+      {
+        "texto": "3",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Estudian al menos uno: 35 + 28 − 10 = 53. No estudian ninguno: 60 − 53 = 7.",
+    "tiempo": 20
+  },
+  {
+    "id": 21,
+    "categoria": "Matemática rápida",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "¿Cuánto es 48 × 25?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "1250",
+        "imagen": ""
+      },
+      {
+        "texto": "1200",
+        "imagen": ""
+      },
+      {
+        "texto": "1000",
+        "imagen": ""
+      },
+      {
+        "texto": "1150",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Multiplicar por 25 equivale a multiplicar por 100 y dividir entre 4: 4800 ÷ 4 = 1200.",
     "tiempo": 10
   },
   {
-    "id": 8,
-    "categoria": "Secuencias de figuras",
-    "dificultad": "Fácil",
-    "tipo": "imagen",
-    "pregunta": "Observa la secuencia. ¿Cuántos puntos tendrá la siguiente figura?",
-    "imagen": "img/preguntas/secuencia.svg",
-    "imagen_alt": "Tres cuadros sucesivos contienen uno, dos y tres puntos; sigue un cuadro con signo de interrogación.",
+    "id": 22,
+    "categoria": "Matemática rápida",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "¿Cuánto es 15% de 240?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "24",
+        "imagen": ""
+      },
+      {
+        "texto": "36",
+        "imagen": ""
+      },
+      {
+        "texto": "42",
+        "imagen": ""
+      },
+      {
+        "texto": "30",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "El 10% es 24 y el 5% es 12. Su suma es 36.",
+    "tiempo": 10
+  },
+  {
+    "id": 23,
+    "categoria": "Matemática rápida",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "¿Cuánto es 7/8 de 64?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "48",
+        "imagen": ""
+      },
+      {
+        "texto": "58",
+        "imagen": ""
+      },
+      {
+        "texto": "54",
+        "imagen": ""
+      },
+      {
+        "texto": "56",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "64 ÷ 8 = 8; luego 8 × 7 = 56.",
+    "tiempo": 10
+  },
+  {
+    "id": 24,
+    "categoria": "Matemática rápida",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Resuelve: 18 + 6 × 4 − 12 ÷ 3.",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "48",
+        "imagen": ""
+      },
+      {
+        "texto": "60",
+        "imagen": ""
+      },
+      {
+        "texto": "38",
+        "imagen": ""
+      },
+      {
+        "texto": "28",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Primero multiplicación y división: 6 × 4 = 24 y 12 ÷ 3 = 4. Después 18 + 24 − 4 = 38.",
+    "tiempo": 12
+  },
+  {
+    "id": 25,
+    "categoria": "Matemática rápida",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Si 3x − 7 = 20, ¿cuánto vale x?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "9",
+        "imagen": ""
+      },
+      {
+        "texto": "8",
+        "imagen": ""
+      },
+      {
+        "texto": "7",
+        "imagen": ""
+      },
+      {
+        "texto": "11",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "3x = 20 + 7 = 27. Por tanto, x = 9.",
+    "tiempo": 10
+  },
+  {
+    "id": 26,
+    "categoria": "Matemática rápida",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "¿Cuánto es 0,6 × 0,4?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "0,10",
+        "imagen": ""
+      },
+      {
+        "texto": "0,024",
+        "imagen": ""
+      },
+      {
+        "texto": "0,24",
+        "imagen": ""
+      },
+      {
+        "texto": "2,4",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "6 × 4 = 24. Hay dos cifras decimales en total, por lo que el producto es 0,24.",
+    "tiempo": 10
+  },
+  {
+    "id": 27,
+    "categoria": "Matemática rápida",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "¿Cuánto es 999 + 998 + 997?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "2994",
+        "imagen": ""
+      },
+      {
+        "texto": "2993",
+        "imagen": ""
+      },
+      {
+        "texto": "2997",
+        "imagen": ""
+      },
+      {
+        "texto": "2991",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Son 1000 − 1, 1000 − 2 y 1000 − 3: 3000 − 6 = 2994.",
+    "tiempo": 10
+  },
+  {
+    "id": 28,
+    "categoria": "Matemática rápida",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "¿Cuánto es 5² − 3²?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "4",
+        "imagen": ""
+      },
+      {
+        "texto": "8",
+        "imagen": ""
+      },
+      {
+        "texto": "34",
+        "imagen": ""
+      },
+      {
+        "texto": "16",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "5² = 25 y 3² = 9. Entonces 25 − 9 = 16.",
+    "tiempo": 10
+  },
+  {
+    "id": 29,
+    "categoria": "Matemática rápida",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "¿Cuánto es 3/4 + 2/3?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "5/12",
+        "imagen": ""
+      },
+      {
+        "texto": "17/12",
+        "imagen": ""
+      },
+      {
+        "texto": "13/12",
+        "imagen": ""
+      },
+      {
+        "texto": "5/7",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Con denominador 12: 3/4 = 9/12 y 2/3 = 8/12; la suma es 17/12.",
+    "tiempo": 12
+  },
+  {
+    "id": 30,
+    "categoria": "Matemática rápida",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "¿Cuánto es 144 ÷ 0,12?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "1200",
+        "imagen": ""
+      },
+      {
+        "texto": "12",
+        "imagen": ""
+      },
+      {
+        "texto": "120",
+        "imagen": ""
+      },
+      {
+        "texto": "1728",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Multiplica dividendo y divisor por 100: 14400 ÷ 12 = 1200.",
+    "tiempo": 12
+  },
+  {
+    "id": 31,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Todos los supervisores son técnicos. Ningún técnico es visitante. ¿Qué se deduce necesariamente?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Todo técnico es supervisor.",
+        "imagen": ""
+      },
+      {
+        "texto": "Algunos supervisores son visitantes.",
+        "imagen": ""
+      },
+      {
+        "texto": "Todo visitante es supervisor.",
+        "imagen": ""
+      },
+      {
+        "texto": "Ningún supervisor es visitante.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Los supervisores están dentro del grupo de técnicos, y este grupo no comparte miembros con los visitantes.",
+    "tiempo": 15
+  },
+  {
+    "id": 32,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Algunos mecánicos son instructores. Todos los instructores están certificados. ¿Qué se deduce necesariamente?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Todos los certificados son mecánicos.",
+        "imagen": ""
+      },
+      {
+        "texto": "Ningún mecánico está certificado.",
+        "imagen": ""
+      },
+      {
+        "texto": "Algunos mecánicos están certificados.",
+        "imagen": ""
+      },
+      {
+        "texto": "Todos los mecánicos están certificados.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Los mecánicos que son instructores también están certificados. No se afirma lo mismo de todos los mecánicos.",
+    "tiempo": 15
+  },
+  {
+    "id": 33,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Si un informe está aprobado, tiene firma. Un informe no tiene firma. ¿Qué se concluye?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Está aprobado.",
+        "imagen": ""
+      },
+      {
+        "texto": "Fue revisado ayer.",
+        "imagen": ""
+      },
+      {
+        "texto": "No está aprobado.",
+        "imagen": ""
+      },
+      {
+        "texto": "Está impreso.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "De aprobado → firmado se deduce no firmado → no aprobado. Es la contraposición.",
+    "tiempo": 15
+  },
+  {
+    "id": 34,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Si un paquete es urgente, lleva etiqueta roja. Este paquete lleva etiqueta roja. ¿Qué se puede asegurar sobre su urgencia?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Es urgente necesariamente.",
+        "imagen": ""
+      },
+      {
+        "texto": "Todos los paquetes son urgentes.",
+        "imagen": ""
+      },
+      {
+        "texto": "No es urgente necesariamente.",
+        "imagen": ""
+      },
+      {
+        "texto": "No puede determinarse con esos datos.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "La regla exige etiqueta roja a los urgentes, pero permite que otros paquetes también la lleven.",
+    "tiempo": 15
+  },
+  {
+    "id": 35,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Ana llegó antes que Bruno. Carla llegó después que Bruno. Diego llegó antes que Ana. ¿Quién llegó primero?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Carla",
+        "imagen": ""
+      },
+      {
+        "texto": "Ana",
+        "imagen": ""
+      },
+      {
+        "texto": "Diego",
+        "imagen": ""
+      },
+      {
+        "texto": "Bruno",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "El orden obligado es Diego, Ana, Bruno y Carla.",
+    "tiempo": 15
+  },
+  {
+    "id": 36,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Exactamente una de estas afirmaciones es verdadera: «La caja es azul» y «La caja es roja». ¿Qué puede asegurarse?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Es azul y roja a la vez.",
+        "imagen": ""
+      },
+      {
+        "texto": "No es azul ni roja.",
+        "imagen": ""
+      },
+      {
+        "texto": "Es necesariamente roja.",
+        "imagen": ""
+      },
+      {
+        "texto": "Es azul o roja, pero no ambas.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Que exactamente una afirmación sea verdadera significa que una de las dos propiedades se cumple y la otra no.",
+    "tiempo": 15
+  },
+  {
+    "id": 37,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "En una fila de tres personas, Luis está entre Marta y Pedro. Marta está a la izquierda de Pedro. ¿Quién ocupa el extremo derecho?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Luis",
+        "imagen": ""
+      },
+      {
+        "texto": "No se puede determinar.",
+        "imagen": ""
+      },
+      {
+        "texto": "Pedro",
+        "imagen": ""
+      },
+      {
+        "texto": "Marta",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "El único orden compatible, de izquierda a derecha, es Marta, Luis y Pedro.",
+    "tiempo": 15
+  },
+  {
+    "id": 38,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Solo quienes tienen pase pueden entrar. Elena entró cumpliendo esa regla. ¿Qué se deduce?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Elena tiene pase.",
+        "imagen": ""
+      },
+      {
+        "texto": "Toda persona con pase entró.",
+        "imagen": ""
+      },
+      {
+        "texto": "Elena no tiene pase.",
+        "imagen": ""
+      },
+      {
+        "texto": "Elena fue la primera en entrar.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "«Solo quienes tienen pase pueden entrar» hace del pase una condición necesaria para entrar.",
+    "tiempo": 15
+  },
+  {
+    "id": 39,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Ningún objeto de la caja A es metálico. Algunos objetos rojos están en la caja A. ¿Qué se deduce?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Todos los objetos rojos son metálicos.",
+        "imagen": ""
+      },
+      {
+        "texto": "Todos los objetos de A son rojos.",
+        "imagen": ""
+      },
+      {
+        "texto": "Ningún objeto rojo es metálico.",
+        "imagen": ""
+      },
+      {
+        "texto": "Algunos objetos rojos no son metálicos.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Los objetos rojos mencionados pertenecen a A y, por ello, no son metálicos. No se generaliza a todos los rojos.",
+    "tiempo": 15
+  },
+  {
+    "id": 40,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Para completar el trámite se requieren documento y formulario. Iván tiene documento, pero no formulario. ¿Cumple ambos requisitos?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Sí, basta cualquiera de los dos.",
+        "imagen": ""
+      },
+      {
+        "texto": "Sí, basta el documento.",
+        "imagen": ""
+      },
+      {
+        "texto": "No, le falta el formulario.",
+        "imagen": ""
+      },
+      {
+        "texto": "No se puede saber si tiene documento.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "La condición exige ambos elementos. Tener solo uno no la satisface.",
+    "tiempo": 15
+  },
+  {
+    "id": 41,
+    "categoria": "Analogías",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Brújula es a dirección como reloj es a…",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Distancia",
+        "imagen": ""
+      },
+      {
+        "texto": "Tiempo",
+        "imagen": ""
+      },
+      {
+        "texto": "Temperatura",
+        "imagen": ""
+      },
+      {
+        "texto": "Masa",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Se relaciona un instrumento con la magnitud u orientación que permite conocer.",
+    "tiempo": 15
+  },
+  {
+    "id": 42,
+    "categoria": "Analogías",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Plano es a edificio como partitura es a…",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Sala de conciertos",
+        "imagen": ""
+      },
+      {
+        "texto": "Pieza musical",
+        "imagen": ""
+      },
+      {
+        "texto": "Instrumento de medida",
+        "imagen": ""
+      },
+      {
+        "texto": "Hoja de papel",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "El plano representa cómo construir un edificio; la partitura representa cómo interpretar una pieza musical.",
+    "tiempo": 15
+  },
+  {
+    "id": 43,
+    "categoria": "Analogías",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Semilla es a planta como huevo es a…",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Vuelo",
+        "imagen": ""
+      },
+      {
+        "texto": "Ave",
+        "imagen": ""
+      },
+      {
+        "texto": "Pluma",
+        "imagen": ""
+      },
+      {
+        "texto": "Nido",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Se relaciona una etapa de origen biológico con el organismo que se desarrolla a partir de ella.",
+    "tiempo": 15
+  },
+  {
+    "id": 44,
+    "categoria": "Analogías",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Termómetro es a temperatura como balanza es a…",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Longitud",
+        "imagen": ""
+      },
+      {
+        "texto": "Presión",
+        "imagen": ""
+      },
+      {
+        "texto": "Masa",
+        "imagen": ""
+      },
+      {
+        "texto": "Velocidad",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Un termómetro mide temperatura y una balanza permite medir masa.",
+    "tiempo": 15
+  },
+  {
+    "id": 45,
+    "categoria": "Analogías",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Capítulo es a libro como escena es a…",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Autor",
+        "imagen": ""
+      },
+      {
+        "texto": "Obra teatral",
+        "imagen": ""
+      },
+      {
+        "texto": "Biblioteca",
+        "imagen": ""
+      },
+      {
+        "texto": "Espectador",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "La relación es parte de una obra: el capítulo integra un libro y la escena integra una obra teatral.",
+    "tiempo": 15
+  },
+  {
+    "id": 46,
+    "categoria": "Analogías",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Escasez es a abundancia como rigidez es a…",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Firmeza",
+        "imagen": ""
+      },
+      {
+        "texto": "Flexibilidad",
+        "imagen": ""
+      },
+      {
+        "texto": "Estabilidad",
+        "imagen": ""
+      },
+      {
+        "texto": "Dureza",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Se buscan antónimos: abundancia se opone a escasez y flexibilidad a rigidez.",
+    "tiempo": 15
+  },
+  {
+    "id": 47,
+    "categoria": "Analogías",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Médico es a diagnóstico como juez es a…",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Testigo",
+        "imagen": ""
+      },
+      {
+        "texto": "Tribunal",
+        "imagen": ""
+      },
+      {
+        "texto": "Sentencia",
+        "imagen": ""
+      },
+      {
+        "texto": "Expediente",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "La relación es profesional y resultado característico de su labor: diagnóstico y sentencia.",
+    "tiempo": 15
+  },
+  {
+    "id": 48,
+    "categoria": "Analogías",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Lija es a alisar como tijera es a…",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Pintar",
+        "imagen": ""
+      },
+      {
+        "texto": "Unir",
+        "imagen": ""
+      },
+      {
+        "texto": "Medir",
+        "imagen": ""
+      },
+      {
+        "texto": "Cortar",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Cada herramienta se vincula con su función principal.",
+    "tiempo": 15
+  },
+  {
+    "id": 49,
+    "categoria": "Analogías",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Kilómetro es a longitud como litro es a…",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Volumen",
+        "imagen": ""
+      },
+      {
+        "texto": "Temperatura",
+        "imagen": ""
+      },
+      {
+        "texto": "Tiempo",
+        "imagen": ""
+      },
+      {
+        "texto": "Masa",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Kilómetro y litro son unidades de longitud y volumen, respectivamente.",
+    "tiempo": 15
+  },
+  {
+    "id": 50,
+    "categoria": "Analogías",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Archivo es a carpeta como libro es a…",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Estante",
+        "imagen": ""
+      },
+      {
+        "texto": "Portada",
+        "imagen": ""
+      },
+      {
+        "texto": "Página",
+        "imagen": ""
+      },
+      {
+        "texto": "Párrafo",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "La relación es elemento y lugar que lo contiene o agrupa: archivo en carpeta y libro en estante.",
+    "tiempo": 15
+  },
+  {
+    "id": 51,
+    "categoria": "Razonamiento verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "En «Su explicación fue concisa», ¿qué significa «concisa»?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Extensa y detallada",
+        "imagen": ""
+      },
+      {
+        "texto": "Confusa y contradictoria",
+        "imagen": ""
+      },
+      {
+        "texto": "Breve y precisa",
+        "imagen": ""
+      },
+      {
+        "texto": "Lenta y repetitiva",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Concisa describe una expresión breve que comunica lo esencial.",
+    "tiempo": 15
+  },
+  {
+    "id": 52,
+    "categoria": "Razonamiento verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "¿Cuál es el antónimo de «provisional»?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Transitorio",
+        "imagen": ""
+      },
+      {
+        "texto": "Momentáneo",
+        "imagen": ""
+      },
+      {
+        "texto": "Temporal",
+        "imagen": ""
+      },
+      {
+        "texto": "Definitivo",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Provisional significa temporal o pendiente de una solución definitiva.",
+    "tiempo": 15
+  },
+  {
+    "id": 53,
+    "categoria": "Razonamiento verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "En «El cambio es inminente», ¿qué significa «inminente»?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Ocurre de forma permanente.",
+        "imagen": ""
+      },
+      {
+        "texto": "Ocurrió hace muchos años.",
+        "imagen": ""
+      },
+      {
+        "texto": "Es imposible que ocurra.",
+        "imagen": ""
+      },
+      {
+        "texto": "Está próximo a ocurrir.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Inminente indica que algo está a punto de suceder.",
+    "tiempo": 15
+  },
+  {
+    "id": 54,
+    "categoria": "Razonamiento verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa: «El plazo era breve; ___, el equipo terminó a tiempo».",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "es decir",
+        "imagen": ""
+      },
+      {
+        "texto": "a causa de",
+        "imagen": ""
+      },
+      {
+        "texto": "por ejemplo",
+        "imagen": ""
+      },
+      {
+        "texto": "sin embargo",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "El segundo hecho contrasta con la dificultad del primero. «Sin embargo» introduce ese contraste.",
+    "tiempo": 15
+  },
+  {
+    "id": 55,
+    "categoria": "Razonamiento verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "¿Cuál palabra no pertenece al mismo grupo semántico: estimar, calcular, evaluar, omitir?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Evaluar",
+        "imagen": ""
+      },
+      {
+        "texto": "Omitir",
+        "imagen": ""
+      },
+      {
+        "texto": "Calcular",
+        "imagen": ""
+      },
+      {
+        "texto": "Estimar",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Estimar, calcular y evaluar implican determinar o valorar algo. Omitir significa dejarlo fuera.",
+    "tiempo": 15
+  },
+  {
+    "id": 56,
+    "categoria": "Razonamiento verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "En «Se debe corroborar el dato», «corroborar» significa…",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Ocultarlo por completo.",
+        "imagen": ""
+      },
+      {
+        "texto": "Repetirlo sin comprobarlo.",
+        "imagen": ""
+      },
+      {
+        "texto": "Cambiarlo al azar.",
+        "imagen": ""
+      },
+      {
+        "texto": "Confirmar su veracidad.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Corroborar es confirmar o respaldar la veracidad de una información.",
+    "tiempo": 15
+  },
+  {
+    "id": 57,
+    "categoria": "Razonamiento verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "¿Qué palabra expresa lo contrario de «ambiguo»?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Impreciso",
+        "imagen": ""
+      },
+      {
+        "texto": "Inequívoco",
+        "imagen": ""
+      },
+      {
+        "texto": "Confuso",
+        "imagen": ""
+      },
+      {
+        "texto": "Dudoso",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Inequívoco no permite dudas o interpretaciones distintas; es contrario a ambiguo.",
+    "tiempo": 15
+  },
+  {
+    "id": 58,
+    "categoria": "Razonamiento verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa con un conector que indique la causa: «No asistió ___ estaba enfermo».",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "aunque",
+        "imagen": ""
+      },
+      {
+        "texto": "mientras que",
+        "imagen": ""
+      },
+      {
+        "texto": "sino",
+        "imagen": ""
+      },
+      {
+        "texto": "porque",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "«Porque» introduce la causa de no asistir.",
+    "tiempo": 15
+  },
+  {
+    "id": 59,
+    "categoria": "Razonamiento verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "¿Qué significa «prescindir de una herramienta»?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Repararla de inmediato.",
+        "imagen": ""
+      },
+      {
+        "texto": "Compartirla obligatoriamente.",
+        "imagen": ""
+      },
+      {
+        "texto": "Usarla con más frecuencia.",
+        "imagen": ""
+      },
+      {
+        "texto": "Dejar de utilizarla o contar con ella.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Prescindir de algo es dejarlo de lado o actuar sin contar con ello.",
+    "tiempo": 15
+  },
+  {
+    "id": 60,
+    "categoria": "Razonamiento verbal",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "¿Cuál oración expresa una condición necesaria, pero no garantiza por sí sola la aprobación?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Para aprobar, es necesario entregar el informe.",
+        "imagen": ""
+      },
+      {
+        "texto": "Aprobar y entregar el informe no guardan relación.",
+        "imagen": ""
+      },
+      {
+        "texto": "Entregar el informe garantiza aprobar.",
+        "imagen": ""
+      },
+      {
+        "texto": "Quien entrega el informe aprueba siempre.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "«Es necesario» indica un requisito. Puede haber otros requisitos adicionales; cumplir uno no garantiza aprobar.",
+    "tiempo": 20
+  },
+  {
+    "id": 61,
+    "categoria": "Atención y concentración",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "¿Qué código coincide exactamente con R8N4-P6Q2?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "R8N4-P6Q7",
+        "imagen": ""
+      },
+      {
+        "texto": "R8N4-P6Q2",
+        "imagen": ""
+      },
+      {
+        "texto": "R8M4-P6Q2",
+        "imagen": ""
+      },
+      {
+        "texto": "R8N4-P6O2",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "La coincidencia exacta conserva R8N4 y P6Q2 sin sustituir letras ni números.",
+    "tiempo": 10
+  },
+  {
+    "id": 62,
+    "categoria": "Atención y concentración",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "¿Cuántas veces aparece el dígito 7 en 7170772717?",
+    "imagen": "",
     "opciones": [
       {
         "texto": "3",
+        "imagen": ""
+      },
+      {
+        "texto": "6",
+        "imagen": ""
+      },
+      {
+        "texto": "4",
+        "imagen": ""
+      },
+      {
+        "texto": "5",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Los dígitos 7 aparecen en las posiciones 1, 3, 5, 6, 8 y 10.",
+    "tiempo": 12
+  },
+  {
+    "id": 63,
+    "categoria": "Atención y concentración",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "¿Cuál de estos pares contiene dos códigos idénticos?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "LM08 / LM08",
+        "imagen": ""
+      },
+      {
+        "texto": "ZT09 / ZT90",
+        "imagen": ""
+      },
+      {
+        "texto": "AB12 / AB21",
+        "imagen": ""
+      },
+      {
+        "texto": "PQ65 / PQ56",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "LM08 se repite exactamente. Los otros pares intercambian el orden de sus dos cifras.",
+    "tiempo": 10
+  },
+  {
+    "id": 64,
+    "categoria": "Atención y concentración",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "¿Cuántas letras A hay en ABACADABRA?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "6",
+        "imagen": ""
+      },
+      {
+        "texto": "5",
+        "imagen": ""
+      },
+      {
+        "texto": "3",
+        "imagen": ""
+      },
+      {
+        "texto": "4",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Las letras A están en las posiciones 1, 3, 5, 7 y 10.",
+    "tiempo": 12
+  },
+  {
+    "id": 65,
+    "categoria": "Atención y concentración",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "¿Cuál secuencia está ordenada de menor a mayor?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "0,05 < 0,55 < 0,5 < 0,6",
+        "imagen": ""
+      },
+      {
+        "texto": "0,6 < 0,55 < 0,5 < 0,05",
+        "imagen": ""
+      },
+      {
+        "texto": "0,05 < 0,5 < 0,55 < 0,6",
+        "imagen": ""
+      },
+      {
+        "texto": "0,5 < 0,05 < 0,55 < 0,6",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Comparando centésimas: 5 < 50 < 55 < 60.",
+    "tiempo": 15
+  },
+  {
+    "id": 66,
+    "categoria": "Atención y concentración",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "¿Qué número aparece exactamente dos veces en la lista 42, 24, 42, 44, 24, 42, 44, 44?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "44",
+        "imagen": ""
+      },
+      {
+        "texto": "22",
+        "imagen": ""
+      },
+      {
+        "texto": "42",
+        "imagen": ""
+      },
+      {
+        "texto": "24",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "24 aparece dos veces; 42 y 44 aparecen tres veces cada uno. 22 no aparece.",
+    "tiempo": 15
+  },
+  {
+    "id": 67,
+    "categoria": "Atención y concentración",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Compara carácter por carácter: ABCD1234 y ABGD1284. ¿En cuántas posiciones difieren?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "1",
+        "imagen": ""
+      },
+      {
+        "texto": "4",
+        "imagen": ""
+      },
+      {
+        "texto": "3",
+        "imagen": ""
+      },
+      {
+        "texto": "2",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Difieren en la tercera posición (C/G) y en la séptima (3/8).",
+    "tiempo": 12
+  },
+  {
+    "id": 68,
+    "categoria": "Atención y concentración",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "¿Cuántos números son pares y mayores que 20 en esta lista: 18, 22, 25, 30, 17, 24, 40, 21?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "6",
         "imagen": ""
       },
       {
@@ -229,76 +1963,940 @@
         "imagen": ""
       },
       {
-        "texto": "6",
+        "texto": "3",
         "imagen": ""
       }
     ],
     "correcta": 1,
-    "explicacion": "Cada figura agrega un punto: 1, 2, 3 y 4. La siguiente contiene cuatro puntos.",
-    "tiempo": 10
+    "explicacion": "Cumplen ambas condiciones 22, 30, 24 y 40. El 18 es par, pero no es mayor que 20.",
+    "tiempo": 12
   },
   {
-    "id": 9,
-    "categoria": "Matrices visuales",
+    "id": 69,
+    "categoria": "Atención y concentración",
     "dificultad": "Difícil",
-    "tipo": "texto_imagen",
-    "pregunta": "En cada fila, la tercera casilla combina los puntos de las dos primeras. ¿Qué figura completa la matriz?",
-    "imagen": "img/preguntas/matriz.svg",
-    "imagen_alt": "Matriz de dos filas y tres columnas. Primera fila: punto arriba a la izquierda; punto arriba a la derecha; ambos puntos arriba. Segunda fila: punto abajo a la izquierda; punto abajo a la derecha; casilla desconocida.",
-    "opciones": [
-      {
-        "texto": "",
-        "imagen": "img/opciones/matriz_A.svg",
-        "imagen_alt": "Dos puntos en la fila superior"
-      },
-      {
-        "texto": "",
-        "imagen": "img/opciones/matriz_B.svg",
-        "imagen_alt": "Dos puntos en la columna izquierda"
-      },
-      {
-        "texto": "",
-        "imagen": "img/opciones/matriz_C.svg",
-        "imagen_alt": "Dos puntos en la fila inferior"
-      },
-      {
-        "texto": "",
-        "imagen": "img/opciones/matriz_D.svg",
-        "imagen_alt": "Dos puntos en diagonal descendente"
-      }
-    ],
-    "correcta": 2,
-    "explicacion": "La última casilla reúne el punto inferior izquierdo y el punto inferior derecho. Por eso debe contener dos puntos en la fila inferior.",
-    "tiempo": 15
-  },
-  {
-    "id": 10,
-    "categoria": "Trabajo en equipo",
-    "dificultad": "Media",
     "tipo": "texto",
-    "evaluacion": "personalidad",
-    "pregunta": "Cuando trabajo en equipo, comunico mis avances antes de que me los pidan.",
+    "pregunta": "¿Cuál alternativa es el código 583917 escrito en orden inverso?",
     "imagen": "",
     "opciones": [
       {
-        "texto": "Nunca o casi nunca",
+        "texto": "719385",
         "imagen": ""
       },
       {
-        "texto": "A veces",
+        "texto": "713985",
         "imagen": ""
       },
       {
-        "texto": "Con frecuencia",
+        "texto": "719358",
         "imagen": ""
       },
       {
-        "texto": "Siempre o casi siempre",
+        "texto": "791385",
         "imagen": ""
       }
     ],
-    "correcta": null,
-    "explicacion": "Esta respuesta describe tu experiencia. No hay una alternativa correcta o incorrecta y este ítem aislado no permite inferir un perfil psicológico.",
+    "correcta": 0,
+    "explicacion": "Leer 583917 de derecha a izquierda produce 7, 1, 9, 3, 8, 5.",
+    "tiempo": 12
+  },
+  {
+    "id": 70,
+    "categoria": "Atención y concentración",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "¿Cuántos grupos son exactamente AB en esta lista: AB, BA, AB, AA, BB, AB, BA, AB?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "5",
+        "imagen": ""
+      },
+      {
+        "texto": "3",
+        "imagen": ""
+      },
+      {
+        "texto": "4",
+        "imagen": ""
+      },
+      {
+        "texto": "6",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "AB aparece en los grupos primero, tercero, sexto y octavo.",
+    "tiempo": 10
+  },
+  {
+    "id": 71,
+    "categoria": "Patrones",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Usa el alfabeto A–Z sin Ñ. ¿Qué letra continúa: A, C, F, J, O, …?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "V",
+        "imagen": ""
+      },
+      {
+        "texto": "W",
+        "imagen": ""
+      },
+      {
+        "texto": "T",
+        "imagen": ""
+      },
+      {
+        "texto": "U",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Las posiciones son 1, 3, 6, 10 y 15. Los saltos son +2, +3, +4 y +5; sigue +6, llegando a 21 = U.",
+    "tiempo": 20
+  },
+  {
+    "id": 72,
+    "categoria": "Patrones",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Usa el alfabeto A–Z sin Ñ. ¿Qué par continúa: AZ, BY, CX, DW, …?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "EV",
+        "imagen": ""
+      },
+      {
+        "texto": "EX",
+        "imagen": ""
+      },
+      {
+        "texto": "EU",
+        "imagen": ""
+      },
+      {
+        "texto": "FV",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "La primera letra avanza una posición y la segunda retrocede una: D→E y W→V.",
+    "tiempo": 15
+  },
+  {
+    "id": 73,
+    "categoria": "Patrones",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Una secuencia repite: círculo, cuadrado, triángulo. Empezando en círculo, ¿qué figura ocupa la posición 20?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "No se puede determinar.",
+        "imagen": ""
+      },
+      {
+        "texto": "Triángulo",
+        "imagen": ""
+      },
+      {
+        "texto": "Cuadrado",
+        "imagen": ""
+      },
+      {
+        "texto": "Círculo",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Cada ciclo tiene 3 figuras. 20 = 6 × 3 + 2: corresponde la segunda, cuadrado.",
+    "tiempo": 15
+  },
+  {
+    "id": 74,
+    "categoria": "Patrones",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "En cada fila, el tercero es el producto de los dos primeros más 1: (2, 3, 7), (4, 2, 9), (3, 5, ¿?).",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "17",
+        "imagen": ""
+      },
+      {
+        "texto": "15",
+        "imagen": ""
+      },
+      {
+        "texto": "16",
+        "imagen": ""
+      },
+      {
+        "texto": "8",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "3 × 5 + 1 = 16. La misma regla produce 2 × 3 + 1 = 7 y 4 × 2 + 1 = 9.",
+    "tiempo": 12
+  },
+  {
+    "id": 75,
+    "categoria": "Patrones",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Un código desplaza cada letra una posición hacia adelante en el alfabeto A–Z sin Ñ. Si CASA se escribe DBTB, ¿cómo se escribe MESA?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "NFTA",
+        "imagen": ""
+      },
+      {
+        "texto": "MFTB",
+        "imagen": ""
+      },
+      {
+        "texto": "NFTB",
+        "imagen": ""
+      },
+      {
+        "texto": "NFTC",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "M→N, E→F, S→T y A→B. El código resultante es NFTB.",
+    "tiempo": 15
+  },
+  {
+    "id": 76,
+    "categoria": "Patrones",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Cada fila cumple: tercer número = primero + 2 × segundo. Completa (2, 3, 8), (4, 5, 14), (6, 7, ¿?).",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "19",
+        "imagen": ""
+      },
+      {
+        "texto": "18",
+        "imagen": ""
+      },
+      {
+        "texto": "21",
+        "imagen": ""
+      },
+      {
+        "texto": "20",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Se aplica la regla indicada: 6 + 2 × 7 = 6 + 14 = 20.",
+    "tiempo": 12
+  },
+  {
+    "id": 77,
+    "categoria": "Patrones",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Con alfabeto A–Z sin Ñ, continúa el patrón: A1, C4, E9, G16, …",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "I20",
+        "imagen": ""
+      },
+      {
+        "texto": "J25",
+        "imagen": ""
+      },
+      {
+        "texto": "I25",
+        "imagen": ""
+      },
+      {
+        "texto": "H25",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Las letras avanzan de dos en dos: A, C, E, G, I. Los números son cuadrados: 1, 4, 9, 16, 25.",
+    "tiempo": 15
+  },
+  {
+    "id": 78,
+    "categoria": "Patrones",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "¿Qué número no sigue la regla de los demás: 16, 25, 36, 49, 63, 81?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "49",
+        "imagen": ""
+      },
+      {
+        "texto": "81",
+        "imagen": ""
+      },
+      {
+        "texto": "25",
+        "imagen": ""
+      },
+      {
+        "texto": "63",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Todos salvo 63 son cuadrados perfectos: 4², 5², 6², 7² y 9². Entre 7²=49 y 9²=81, el cuadrado faltante sería 8²=64.",
+    "tiempo": 15
+  },
+  {
+    "id": 79,
+    "categoria": "Patrones",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Una secuencia repite ROJO, AZUL, AZUL, VERDE desde la posición 1. ¿Qué color ocupa la posición 31?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "VERDE",
+        "imagen": ""
+      },
+      {
+        "texto": "No se puede determinar.",
+        "imagen": ""
+      },
+      {
+        "texto": "AZUL",
+        "imagen": ""
+      },
+      {
+        "texto": "ROJO",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "El ciclo tiene 4 elementos. 31 = 7 × 4 + 3; la tercera posición del ciclo es AZUL.",
+    "tiempo": 15
+  },
+  {
+    "id": 80,
+    "categoria": "Patrones",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Una transformación toma (a, b) y devuelve a² − b. Si (4, 3) da 13, ¿qué da (6, 5)?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "25",
+        "imagen": ""
+      },
+      {
+        "texto": "11",
+        "imagen": ""
+      },
+      {
+        "texto": "31",
+        "imagen": ""
+      },
+      {
+        "texto": "41",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "La regla indicada produce 6² − 5 = 36 − 5 = 31.",
+    "tiempo": 12
+  },
+  {
+    "id": 81,
+    "categoria": "Razonamiento espacial",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Miras hacia el norte. Giras 90° a la derecha y luego 180° a la izquierda. ¿Hacia dónde miras?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Oeste",
+        "imagen": ""
+      },
+      {
+        "texto": "Sur",
+        "imagen": ""
+      },
+      {
+        "texto": "Este",
+        "imagen": ""
+      },
+      {
+        "texto": "Norte",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Desde norte, 90° a la derecha lleva a este. Girar 180° desde este lleva a oeste.",
+    "tiempo": 15
+  },
+  {
+    "id": 82,
+    "categoria": "Razonamiento espacial",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Avanzas 3 cuadras al este y 4 al norte. ¿Cuál es la distancia en línea recta al punto inicial?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "7 cuadras",
+        "imagen": ""
+      },
+      {
+        "texto": "5 cuadras",
+        "imagen": ""
+      },
+      {
+        "texto": "6 cuadras",
+        "imagen": ""
+      },
+      {
+        "texto": "4 cuadras",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Los desplazamientos forman un triángulo rectángulo: √(3² + 4²) = √25 = 5.",
+    "tiempo": 15
+  },
+  {
+    "id": 83,
+    "categoria": "Razonamiento espacial",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Un punto está en (2, 3). Se refleja respecto al eje Y (vertical). ¿Cuál es su nueva posición?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "(3, 2)",
+        "imagen": ""
+      },
+      {
+        "texto": "(2, −3)",
+        "imagen": ""
+      },
+      {
+        "texto": "(−2, 3)",
+        "imagen": ""
+      },
+      {
+        "texto": "(−2, −3)",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Reflejar respecto al eje Y cambia el signo de x y conserva y: (2, 3) pasa a (−2, 3).",
+    "tiempo": 15
+  },
+  {
+    "id": 84,
+    "categoria": "Razonamiento espacial",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Un cubo tiene las caras opuestas A–D, B–E y C–F. Si A está arriba, ¿qué cara está abajo?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "B",
+        "imagen": ""
+      },
+      {
+        "texto": "C",
+        "imagen": ""
+      },
+      {
+        "texto": "D",
+        "imagen": ""
+      },
+      {
+        "texto": "F",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Las caras superior e inferior son opuestas. La cara opuesta a A es D.",
+    "tiempo": 10
+  },
+  {
+    "id": 85,
+    "categoria": "Razonamiento espacial",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Un bloque de 3 × 2 × 2 cubitos se arma sin huecos. ¿Cuántos cubitos contiene?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "12",
+        "imagen": ""
+      },
+      {
+        "texto": "7",
+        "imagen": ""
+      },
+      {
+        "texto": "10",
+        "imagen": ""
+      },
+      {
+        "texto": "14",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Multiplica las cantidades en las tres dimensiones: 3 × 2 × 2 = 12.",
+    "tiempo": 10
+  },
+  {
+    "id": 86,
+    "categoria": "Razonamiento espacial",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Un cubo grande de 3 × 3 × 3 cubitos se pinta por fuera y luego se separa. ¿Cuántos cubitos tienen exactamente dos caras pintadas?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "6",
+        "imagen": ""
+      },
+      {
+        "texto": "12",
+        "imagen": ""
+      },
+      {
+        "texto": "8",
+        "imagen": ""
+      },
+      {
+        "texto": "18",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Son los cubitos centrales de las 12 aristas, excluyendo esquinas. Cada arista aporta 3 − 2 = 1: total 12.",
+    "tiempo": 20
+  },
+  {
+    "id": 87,
+    "categoria": "Razonamiento espacial",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Una flecha apunta al sureste. Gira 90° en sentido antihorario. ¿Hacia dónde apunta?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Suroeste",
+        "imagen": ""
+      },
+      {
+        "texto": "Noreste",
+        "imagen": ""
+      },
+      {
+        "texto": "Sur",
+        "imagen": ""
+      },
+      {
+        "texto": "Noroeste",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Desde sureste, un cuarto de vuelta antihorario pasa por este y termina en noreste.",
+    "tiempo": 15
+  },
+  {
+    "id": 88,
+    "categoria": "Razonamiento espacial",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "En un mapa, 1 cm representa 4 km. Dos puntos están separados 3,5 cm. ¿Qué distancia representan?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "16 km",
+        "imagen": ""
+      },
+      {
+        "texto": "12 km",
+        "imagen": ""
+      },
+      {
+        "texto": "7 km",
+        "imagen": ""
+      },
+      {
+        "texto": "14 km",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Cada centímetro equivale a 4 km: 3,5 × 4 = 14 km.",
+    "tiempo": 12
+  },
+  {
+    "id": 89,
+    "categoria": "Razonamiento espacial",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Una hoja rectangular se dobla por la mitad y luego nuevamente por la mitad, apilando todas sus capas. ¿Cuántas capas quedan?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "2",
+        "imagen": ""
+      },
+      {
+        "texto": "4",
+        "imagen": ""
+      },
+      {
+        "texto": "8",
+        "imagen": ""
+      },
+      {
+        "texto": "3",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "El primer doblez produce 2 capas y el segundo duplica esa cantidad: 4 capas.",
+    "tiempo": 10
+  },
+  {
+    "id": 90,
+    "categoria": "Razonamiento espacial",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Un punto (3, 1) gira 90° en sentido antihorario alrededor del origen. ¿Dónde queda?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "(−3, −1)",
+        "imagen": ""
+      },
+      {
+        "texto": "(−1, 3)",
+        "imagen": ""
+      },
+      {
+        "texto": "(3, −1)",
+        "imagen": ""
+      },
+      {
+        "texto": "(1, −3)",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Un giro de 90° antihorario transforma (x, y) en (−y, x). Así, (3, 1) pasa a (−1, 3).",
+    "tiempo": 15
+  },
+  {
+    "id": 91,
+    "categoria": "Comprensión verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "«El taller abre de lunes a viernes. Los sábados solo atiende con cita». ¿Qué se afirma sobre los sábados?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Atiende sin cita todo el día.",
+        "imagen": ""
+      },
+      {
+        "texto": "Nunca atiende.",
+        "imagen": ""
+      },
+      {
+        "texto": "Tiene el mismo horario que los lunes.",
+        "imagen": ""
+      },
+      {
+        "texto": "La atención requiere cita.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "El texto establece una condición explícita: solo se atiende con cita. No proporciona horarios.",
+    "tiempo": 15
+  },
+  {
+    "id": 92,
+    "categoria": "Comprensión verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "«El informe se entregará cuando termine la revisión». La revisión aún no termina. Según esa condición, ¿qué corresponde?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Entregarlo antes de revisar.",
+        "imagen": ""
+      },
+      {
+        "texto": "Esperar a que termine la revisión para entregar.",
+        "imagen": ""
+      },
+      {
+        "texto": "Concluir que ya fue entregado.",
+        "imagen": ""
+      },
+      {
+        "texto": "Cancelar definitivamente el informe.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "La finalización de la revisión es la condición temporal indicada para la entrega.",
+    "tiempo": 15
+  },
+  {
+    "id": 93,
+    "categoria": "Comprensión verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "«Aunque disminuyó la producción, la calidad se mantuvo». ¿Qué resumen conserva el sentido?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "La calidad aumentó por producir menos.",
+        "imagen": ""
+      },
+      {
+        "texto": "Se produjo menos, con la misma calidad.",
+        "imagen": ""
+      },
+      {
+        "texto": "La producción y la calidad disminuyeron.",
+        "imagen": ""
+      },
+      {
+        "texto": "Se produjo más y con menor calidad.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "El texto distingue una disminución en cantidad y estabilidad en calidad.",
+    "tiempo": 15
+  },
+  {
+    "id": 94,
+    "categoria": "Comprensión verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "«La mayoría de asistentes llegó puntual». ¿Qué puede asegurarse?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Más de la mitad llegó puntual.",
+        "imagen": ""
+      },
+      {
+        "texto": "Exactamente la mitad llegó puntual.",
+        "imagen": ""
+      },
+      {
+        "texto": "Todos llegaron puntuales.",
+        "imagen": ""
+      },
+      {
+        "texto": "Ninguno llegó tarde.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Mayoría significa más de la mitad; no implica que todos hayan llegado puntuales.",
+    "tiempo": 15
+  },
+  {
+    "id": 95,
+    "categoria": "Comprensión verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "«El pedido A llegó antes que B, pero después que C». ¿Cuál es el orden de llegada?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "A, B, C",
+        "imagen": ""
+      },
+      {
+        "texto": "C, B, A",
+        "imagen": ""
+      },
+      {
+        "texto": "B, A, C",
+        "imagen": ""
+      },
+      {
+        "texto": "C, A, B",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "A está antes de B y después de C: primero C, luego A y finalmente B.",
+    "tiempo": 15
+  },
+  {
+    "id": 96,
+    "categoria": "Comprensión verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "«La inscripción es gratuita; los materiales se pagan aparte». ¿Qué concepto no tiene costo?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "La inscripción",
+        "imagen": ""
+      },
+      {
+        "texto": "Todo el programa y sus materiales",
+        "imagen": ""
+      },
+      {
+        "texto": "El transporte",
+        "imagen": ""
+      },
+      {
+        "texto": "Los materiales",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Solo se declara gratuita la inscripción. Los materiales tienen un costo separado.",
+    "tiempo": 15
+  },
+  {
+    "id": 97,
+    "categoria": "Comprensión verbal",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "«Los equipos nuevos consumen menos energía que los anteriores, con igual producción». ¿Qué mejora se describe?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Menor energía por unidad producida.",
+        "imagen": ""
+      },
+      {
+        "texto": "Mayor producción total necesariamente.",
+        "imagen": ""
+      },
+      {
+        "texto": "Eliminación completa del consumo.",
+        "imagen": ""
+      },
+      {
+        "texto": "Mayor duración de todos los equipos.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Con producción igual y menor consumo, disminuye la energía necesaria por unidad. No se informa sobre duración.",
+    "tiempo": 15
+  },
+  {
+    "id": 98,
+    "categoria": "Comprensión verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "«La reunión fue aplazada, no cancelada». ¿Qué significa?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Se realizará en un momento posterior.",
+        "imagen": ""
+      },
+      {
+        "texto": "Se realizó en la fecha original.",
+        "imagen": ""
+      },
+      {
+        "texto": "Terminó antes de lo previsto.",
+        "imagen": ""
+      },
+      {
+        "texto": "Ya no se realizará.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Aplazar cambia el momento previsto; cancelar elimina la realización del evento.",
+    "tiempo": 15
+  },
+  {
+    "id": 99,
+    "categoria": "Comprensión verbal",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "«Únicamente los informes completos pasarán a revisión». Un informe pasó a revisión cumpliendo la regla. ¿Qué se deduce?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "El informe está completo.",
+        "imagen": ""
+      },
+      {
+        "texto": "Todos los informes completos ya fueron revisados.",
+        "imagen": ""
+      },
+      {
+        "texto": "El informe fue aprobado.",
+        "imagen": ""
+      },
+      {
+        "texto": "El informe fue presentado primero.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "La integridad del informe es un requisito para pasar a revisión. No equivale a aprobación ni asegura que todos los completos ya pasaron.",
+    "tiempo": 15
+  },
+  {
+    "id": 100,
+    "categoria": "Comprensión verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "«El plan se aplicará si ambas áreas lo aprueban». Ambas áreas lo aprobaron. Según la regla, ¿qué ocurrirá?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Solo una de las áreas participó.",
+        "imagen": ""
+      },
+      {
+        "texto": "Se aplicará el plan.",
+        "imagen": ""
+      },
+      {
+        "texto": "Será imposible aplicarlo.",
+        "imagen": ""
+      },
+      {
+        "texto": "Se rechazará el plan.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "La condición suficiente expresada es la aprobación de ambas áreas. Al cumplirse, corresponde aplicar el plan.",
     "tiempo": 15
   }
 ]
