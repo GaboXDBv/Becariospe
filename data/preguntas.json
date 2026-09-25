@@ -2898,5 +2898,5805 @@
     "correcta": 1,
     "explicacion": "La condición suficiente expresada es la aprobación de ambas áreas. Al cumplirse, corresponde aplicar el plan.",
     "tiempo": 15
+  },
+  {
+    "id": 101,
+    "categoria": "Series numéricas",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 6, 10, 18, 34, 66, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "126",
+        "imagen": ""
+      },
+      {
+        "texto": "132",
+        "imagen": ""
+      },
+      {
+        "texto": "128",
+        "imagen": ""
+      },
+      {
+        "texto": "130",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Las diferencias son 4, 8, 16, 32 y 64. Se duplican; por eso 66 + 64 = 130.",
+    "tiempo": 30
+  },
+  {
+    "id": 102,
+    "categoria": "Series numéricas",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 2, 9, 28, 65, 126, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "215",
+        "imagen": ""
+      },
+      {
+        "texto": "218",
+        "imagen": ""
+      },
+      {
+        "texto": "216",
+        "imagen": ""
+      },
+      {
+        "texto": "217",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Son los cubos consecutivos más 1: 1³+1, 2³+1, …, 6³+1 = 217.",
+    "tiempo": 30
+  },
+  {
+    "id": 103,
+    "categoria": "Series numéricas",
+    "dificultad": "Muy difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 2, 12, 36, 80, 150, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "240",
+        "imagen": ""
+      },
+      {
+        "texto": "256",
+        "imagen": ""
+      },
+      {
+        "texto": "252",
+        "imagen": ""
+      },
+      {
+        "texto": "216",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Cada término es n² × (n+1): 1²×2, 2²×3, …, 6²×7 = 252.",
+    "tiempo": 45
+  },
+  {
+    "id": 104,
+    "categoria": "Series numéricas",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 96, 48, 24, 12, 6, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "0",
+        "imagen": ""
+      },
+      {
+        "texto": "3",
+        "imagen": ""
+      },
+      {
+        "texto": "2",
+        "imagen": ""
+      },
+      {
+        "texto": "1",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Se divide cada término entre 2: 6 ÷ 2 = 3.",
+    "tiempo": 15
+  },
+  {
+    "id": 105,
+    "categoria": "Series numéricas",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 3, 8, 15, 24, 35, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "49",
+        "imagen": ""
+      },
+      {
+        "texto": "48",
+        "imagen": ""
+      },
+      {
+        "texto": "46",
+        "imagen": ""
+      },
+      {
+        "texto": "47",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Se suman impares consecutivos: 5, 7, 9, 11 y 13; 35 + 13 = 48.",
+    "tiempo": 20
+  },
+  {
+    "id": 106,
+    "categoria": "Series numéricas",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 2, 6, 12, 20, 30, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "42",
+        "imagen": ""
+      },
+      {
+        "texto": "40",
+        "imagen": ""
+      },
+      {
+        "texto": "44",
+        "imagen": ""
+      },
+      {
+        "texto": "48",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Los términos son productos de enteros consecutivos: 1×2, 2×3, …, 6×7 = 42.",
+    "tiempo": 20
+  },
+  {
+    "id": 107,
+    "categoria": "Series numéricas",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 1, 5, 14, 30, 55, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "91",
+        "imagen": ""
+      },
+      {
+        "texto": "90",
+        "imagen": ""
+      },
+      {
+        "texto": "85",
+        "imagen": ""
+      },
+      {
+        "texto": "80",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Se suman cuadrados consecutivos: 4, 9, 16, 25 y 36. Así, 55 + 36 = 91.",
+    "tiempo": 30
+  },
+  {
+    "id": 108,
+    "categoria": "Series numéricas",
+    "dificultad": "Muy difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 3, 11, 29, 61, 111, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "171",
+        "imagen": ""
+      },
+      {
+        "texto": "181",
+        "imagen": ""
+      },
+      {
+        "texto": "183",
+        "imagen": ""
+      },
+      {
+        "texto": "191",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Las diferencias son 2×2², 2×3², 2×4² y 2×5². Sigue 2×6² = 72; 111 + 72 = 183.",
+    "tiempo": 45
+  },
+  {
+    "id": 109,
+    "categoria": "Series numéricas",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 1, 4, 10, 20, 35, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "60",
+        "imagen": ""
+      },
+      {
+        "texto": "54",
+        "imagen": ""
+      },
+      {
+        "texto": "56",
+        "imagen": ""
+      },
+      {
+        "texto": "50",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Las diferencias son 3, 6, 10 y 15: números triangulares. Sigue 21, por lo que 35 + 21 = 56.",
+    "tiempo": 30
+  },
+  {
+    "id": 110,
+    "categoria": "Series numéricas",
+    "dificultad": "Muy difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 2, 10, 30, 68, 130, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "210",
+        "imagen": ""
+      },
+      {
+        "texto": "224",
+        "imagen": ""
+      },
+      {
+        "texto": "222",
+        "imagen": ""
+      },
+      {
+        "texto": "216",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "El término de posición n es n³+n: 1³+1, 2³+2, …, 6³+6 = 222.",
+    "tiempo": 45
+  },
+  {
+    "id": 111,
+    "categoria": "Series numéricas",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 9, 16, 25, 36, 49, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "64",
+        "imagen": ""
+      },
+      {
+        "texto": "81",
+        "imagen": ""
+      },
+      {
+        "texto": "63",
+        "imagen": ""
+      },
+      {
+        "texto": "60",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Son cuadrados consecutivos desde 3² hasta 7²; sigue 8² = 64.",
+    "tiempo": 15
+  },
+  {
+    "id": 112,
+    "categoria": "Series numéricas",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 2, 3, 5, 7, 11, 13, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "19",
+        "imagen": ""
+      },
+      {
+        "texto": "15",
+        "imagen": ""
+      },
+      {
+        "texto": "17",
+        "imagen": ""
+      },
+      {
+        "texto": "16",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "La lista presenta números primos consecutivos. Después de 13, el siguiente primo es 17.",
+    "tiempo": 20
+  },
+  {
+    "id": 113,
+    "categoria": "Series numéricas",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 8, 27, 64, 125, 216, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "343",
+        "imagen": ""
+      },
+      {
+        "texto": "512",
+        "imagen": ""
+      },
+      {
+        "texto": "342",
+        "imagen": ""
+      },
+      {
+        "texto": "324",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Son cubos consecutivos: 2³, 3³, 4³, 5³, 6³ y 7³ = 343.",
+    "tiempo": 20
+  },
+  {
+    "id": 114,
+    "categoria": "Series numéricas",
+    "dificultad": "Muy difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 2, 5, 26, 677, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "457330",
+        "imagen": ""
+      },
+      {
+        "texto": "458330",
+        "imagen": ""
+      },
+      {
+        "texto": "458329",
+        "imagen": ""
+      },
+      {
+        "texto": "458331",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Cada término es el cuadrado del anterior más 1. El siguiente es 677² + 1 = 458330.",
+    "tiempo": 60
+  },
+  {
+    "id": 115,
+    "categoria": "Series numéricas",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 3, 5, 9, 17, 33, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "67",
+        "imagen": ""
+      },
+      {
+        "texto": "65",
+        "imagen": ""
+      },
+      {
+        "texto": "64",
+        "imagen": ""
+      },
+      {
+        "texto": "66",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Cada término se duplica y se resta 1: 33×2−1 = 65.",
+    "tiempo": 20
+  },
+  {
+    "id": 116,
+    "categoria": "Series numéricas",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 4, 11, 25, 53, 109, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "223",
+        "imagen": ""
+      },
+      {
+        "texto": "221",
+        "imagen": ""
+      },
+      {
+        "texto": "219",
+        "imagen": ""
+      },
+      {
+        "texto": "218",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Se multiplica por 2 y se suma 3: 109×2+3 = 221.",
+    "tiempo": 20
+  },
+  {
+    "id": 117,
+    "categoria": "Series numéricas",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 5, 13, 37, 109, 325, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "975",
+        "imagen": ""
+      },
+      {
+        "texto": "979",
+        "imagen": ""
+      },
+      {
+        "texto": "971",
+        "imagen": ""
+      },
+      {
+        "texto": "973",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "La regla es multiplicar por 3 y restar 2: 325×3−2 = 973.",
+    "tiempo": 30
+  },
+  {
+    "id": 118,
+    "categoria": "Series numéricas",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 2, 5, 12, 27, 58, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "121",
+        "imagen": ""
+      },
+      {
+        "texto": "119",
+        "imagen": ""
+      },
+      {
+        "texto": "116",
+        "imagen": ""
+      },
+      {
+        "texto": "123",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Se duplica y se suman 1, 2, 3, 4 y 5 sucesivamente. Sigue 58×2+5 = 121.",
+    "tiempo": 30
+  },
+  {
+    "id": 119,
+    "categoria": "Series numéricas",
+    "dificultad": "Muy difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 2, 5, 13, 35, 97, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "281",
+        "imagen": ""
+      },
+      {
+        "texto": "269",
+        "imagen": ""
+      },
+      {
+        "texto": "275",
+        "imagen": ""
+      },
+      {
+        "texto": "291",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Se multiplica por 3 y se restan 1, 2, 4, 8 y 16. Así, 97×3−16 = 275.",
+    "tiempo": 45
+  },
+  {
+    "id": 120,
+    "categoria": "Series numéricas",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 2, 4, 12, 48, 240, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "1200",
+        "imagen": ""
+      },
+      {
+        "texto": "1440",
+        "imagen": ""
+      },
+      {
+        "texto": "1680",
+        "imagen": ""
+      },
+      {
+        "texto": "720",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Se multiplica por 2, 3, 4, 5 y 6, en ese orden. Sigue 240×6 = 1440.",
+    "tiempo": 20
+  },
+  {
+    "id": 121,
+    "categoria": "Series numéricas",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 1, 3, 7, 13, 21, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "30",
+        "imagen": ""
+      },
+      {
+        "texto": "29",
+        "imagen": ""
+      },
+      {
+        "texto": "33",
+        "imagen": ""
+      },
+      {
+        "texto": "31",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Se suman los pares 2, 4, 6, 8 y 10; 21 + 10 = 31.",
+    "tiempo": 20
+  },
+  {
+    "id": 122,
+    "categoria": "Series numéricas",
+    "dificultad": "Muy difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 2, 7, 17, 34, 60, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "97",
+        "imagen": ""
+      },
+      {
+        "texto": "95",
+        "imagen": ""
+      },
+      {
+        "texto": "91",
+        "imagen": ""
+      },
+      {
+        "texto": "99",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Las diferencias son 5, 10, 17 y 26: 2²+1, 3²+1, 4²+1 y 5²+1. Sigue 6²+1 = 37; 60+37 = 97.",
+    "tiempo": 45
+  },
+  {
+    "id": 123,
+    "categoria": "Series numéricas",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 100, 99, 95, 86, 70, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "45",
+        "imagen": ""
+      },
+      {
+        "texto": "46",
+        "imagen": ""
+      },
+      {
+        "texto": "44",
+        "imagen": ""
+      },
+      {
+        "texto": "50",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Se restan cuadrados consecutivos: 1, 4, 9, 16 y 25. Por ello, 70−25 = 45.",
+    "tiempo": 30
+  },
+  {
+    "id": 124,
+    "categoria": "Series numéricas",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 200, 198, 192, 180, 160, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "130",
+        "imagen": ""
+      },
+      {
+        "texto": "140",
+        "imagen": ""
+      },
+      {
+        "texto": "120",
+        "imagen": ""
+      },
+      {
+        "texto": "128",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Se restan 2, 6, 12, 20 y 30, productos n(n+1). El siguiente es 160−30 = 130.",
+    "tiempo": 30
+  },
+  {
+    "id": 125,
+    "categoria": "Series numéricas",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 1, 2, 4, 7, 12, 20, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "35",
+        "imagen": ""
+      },
+      {
+        "texto": "33",
+        "imagen": ""
+      },
+      {
+        "texto": "34",
+        "imagen": ""
+      },
+      {
+        "texto": "32",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Las diferencias son 1, 2, 3, 5 y 8; cada diferencia es la suma de las dos anteriores. Sigue 13; 20+13 = 33.",
+    "tiempo": 30
+  },
+  {
+    "id": 126,
+    "categoria": "Series numéricas",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 4, 7, 11, 18, 29, 47, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "75",
+        "imagen": ""
+      },
+      {
+        "texto": "76",
+        "imagen": ""
+      },
+      {
+        "texto": "77",
+        "imagen": ""
+      },
+      {
+        "texto": "78",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Desde el tercer término, se suman los dos anteriores. Así, 29+47 = 76.",
+    "tiempo": 20
+  },
+  {
+    "id": 127,
+    "categoria": "Series numéricas",
+    "dificultad": "Muy difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 2, 3, 7, 13, 27, 53, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "109",
+        "imagen": ""
+      },
+      {
+        "texto": "105",
+        "imagen": ""
+      },
+      {
+        "texto": "106",
+        "imagen": ""
+      },
+      {
+        "texto": "107",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Cada término, desde el tercero, es el anterior más el doble del situado dos lugares antes: 53+2×27 = 107.",
+    "tiempo": 45
+  },
+  {
+    "id": 128,
+    "categoria": "Series numéricas",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 1, 2, 4, 7, 13, 24, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "40",
+        "imagen": ""
+      },
+      {
+        "texto": "48",
+        "imagen": ""
+      },
+      {
+        "texto": "44",
+        "imagen": ""
+      },
+      {
+        "texto": "43",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Desde el cuarto término se suman los tres anteriores. Sigue 7+13+24 = 44.",
+    "tiempo": 30
+  },
+  {
+    "id": 129,
+    "categoria": "Series numéricas",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 2, 4, 3, 9, 4, 16, 5, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "30",
+        "imagen": ""
+      },
+      {
+        "texto": "25",
+        "imagen": ""
+      },
+      {
+        "texto": "20",
+        "imagen": ""
+      },
+      {
+        "texto": "36",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Se agrupan un entero y su cuadrado: (2,4), (3,9), (4,16), (5,25).",
+    "tiempo": 20
+  },
+  {
+    "id": 130,
+    "categoria": "Series numéricas",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 3, 27, 4, 64, 5, 125, 6, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "196",
+        "imagen": ""
+      },
+      {
+        "texto": "36",
+        "imagen": ""
+      },
+      {
+        "texto": "216",
+        "imagen": ""
+      },
+      {
+        "texto": "256",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Los términos forman pares (n,n³): después de 6 corresponde 6³ = 216.",
+    "tiempo": 30
+  },
+  {
+    "id": 131,
+    "categoria": "Series numéricas",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 2, 20, 4, 17, 8, 14, 16, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "11",
+        "imagen": ""
+      },
+      {
+        "texto": "10",
+        "imagen": ""
+      },
+      {
+        "texto": "32",
+        "imagen": ""
+      },
+      {
+        "texto": "12",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Las posiciones impares duplican: 2,4,8,16. Las pares restan 3: 20,17,14,11.",
+    "tiempo": 30
+  },
+  {
+    "id": 132,
+    "categoria": "Series numéricas",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 1, 10, 4, 20, 9, 30, 16, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "50",
+        "imagen": ""
+      },
+      {
+        "texto": "40",
+        "imagen": ""
+      },
+      {
+        "texto": "32",
+        "imagen": ""
+      },
+      {
+        "texto": "36",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Las posiciones impares son cuadrados: 1,4,9,16. Las pares son 10,20,30,40.",
+    "tiempo": 25
+  },
+  {
+    "id": 133,
+    "categoria": "Series numéricas",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 2, 9, 5, 16, 10, 25, 17, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "34",
+        "imagen": ""
+      },
+      {
+        "texto": "26",
+        "imagen": ""
+      },
+      {
+        "texto": "49",
+        "imagen": ""
+      },
+      {
+        "texto": "36",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Las impares siguen n²+1: 2,5,10,17. Las pares son 3²,4²,5²,6²; sigue 36.",
+    "tiempo": 30
+  },
+  {
+    "id": 134,
+    "categoria": "Series numéricas",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 8, 1, 6, 4, 4, 9, 2, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "25",
+        "imagen": ""
+      },
+      {
+        "texto": "14",
+        "imagen": ""
+      },
+      {
+        "texto": "16",
+        "imagen": ""
+      },
+      {
+        "texto": "0",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Una serie resta 2: 8,6,4,2. La otra son cuadrados: 1,4,9,16.",
+    "tiempo": 30
+  },
+  {
+    "id": 135,
+    "categoria": "Series numéricas",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 1, 10, 100, 2, 20, 200, 3, 30, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "90",
+        "imagen": ""
+      },
+      {
+        "texto": "300",
+        "imagen": ""
+      },
+      {
+        "texto": "400",
+        "imagen": ""
+      },
+      {
+        "texto": "60",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Cada grupo contiene n, 10n y 100n: (1,10,100), (2,20,200), (3,30,300).",
+    "tiempo": 25
+  },
+  {
+    "id": 136,
+    "categoria": "Series numéricas",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 2, 6, 5, 15, 14, 42, 41, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "122",
+        "imagen": ""
+      },
+      {
+        "texto": "126",
+        "imagen": ""
+      },
+      {
+        "texto": "82",
+        "imagen": ""
+      },
+      {
+        "texto": "123",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Se alterna multiplicar por 3 y restar 1. Después de 42−1=41, sigue 41×3 = 123.",
+    "tiempo": 30
+  },
+  {
+    "id": 137,
+    "categoria": "Series numéricas",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 4, 8, 5, 10, 7, 14, 11, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "18",
+        "imagen": ""
+      },
+      {
+        "texto": "22",
+        "imagen": ""
+      },
+      {
+        "texto": "24",
+        "imagen": ""
+      },
+      {
+        "texto": "19",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Se alterna multiplicar por 2 y restar 3. Después de 14−3=11, sigue 11×2 = 22.",
+    "tiempo": 30
+  },
+  {
+    "id": 138,
+    "categoria": "Series numéricas",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 6, 9, 18, 21, 42, 45, 90, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "93",
+        "imagen": ""
+      },
+      {
+        "texto": "96",
+        "imagen": ""
+      },
+      {
+        "texto": "180",
+        "imagen": ""
+      },
+      {
+        "texto": "183",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Se alterna sumar 3 y multiplicar por 2. Tras 45×2=90 corresponde sumar 3: 93.",
+    "tiempo": 25
+  },
+  {
+    "id": 139,
+    "categoria": "Series numéricas",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 64, 32, 36, 18, 22, 11, 15, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "15/2",
+        "imagen": ""
+      },
+      {
+        "texto": "17/2",
+        "imagen": ""
+      },
+      {
+        "texto": "19",
+        "imagen": ""
+      },
+      {
+        "texto": "11/2",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Se alterna dividir entre 2 y sumar 4. Luego de 11+4=15, corresponde 15÷2 = 15/2.",
+    "tiempo": 30
+  },
+  {
+    "id": 140,
+    "categoria": "Series numéricas",
+    "dificultad": "Muy difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 2, 4, 3, 9, 8, 64, 63, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "3968",
+        "imagen": ""
+      },
+      {
+        "texto": "4096",
+        "imagen": ""
+      },
+      {
+        "texto": "3969",
+        "imagen": ""
+      },
+      {
+        "texto": "4032",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Se alterna elevar al cuadrado y restar 1. Después de 64−1=63, sigue 63² = 3969.",
+    "tiempo": 50
+  },
+  {
+    "id": 141,
+    "categoria": "Series numéricas",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 1/2, 2/3, 3/4, 4/5, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "4/7",
+        "imagen": ""
+      },
+      {
+        "texto": "6/7",
+        "imagen": ""
+      },
+      {
+        "texto": "6/5",
+        "imagen": ""
+      },
+      {
+        "texto": "5/6",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "En las fracciones escritas, numerador y denominador aumentan en 1: sigue 5/6.",
+    "tiempo": 20
+  },
+  {
+    "id": 142,
+    "categoria": "Series numéricas",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 1/2, 1/4, 1/8, 1/16, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "1/24",
+        "imagen": ""
+      },
+      {
+        "texto": "1/20",
+        "imagen": ""
+      },
+      {
+        "texto": "1/64",
+        "imagen": ""
+      },
+      {
+        "texto": "1/32",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Cada término es la mitad del anterior: (1/16)÷2 = 1/32.",
+    "tiempo": 20
+  },
+  {
+    "id": 143,
+    "categoria": "Series numéricas",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 1/2, 2/5, 3/8, 4/11, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "3/7",
+        "imagen": ""
+      },
+      {
+        "texto": "1/3",
+        "imagen": ""
+      },
+      {
+        "texto": "5/13",
+        "imagen": ""
+      },
+      {
+        "texto": "5/14",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Los numeradores suben de uno en uno y los denominadores de tres en tres. Sigue 5/14.",
+    "tiempo": 30
+  },
+  {
+    "id": 144,
+    "categoria": "Series numéricas",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 1/3, 1/6, 1/10, 1/15, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "1/25",
+        "imagen": ""
+      },
+      {
+        "texto": "1/21",
+        "imagen": ""
+      },
+      {
+        "texto": "1/22",
+        "imagen": ""
+      },
+      {
+        "texto": "1/20",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Los denominadores son triangulares: 3,6,10,15,21; sus incrementos son 3,4,5,6.",
+    "tiempo": 30
+  },
+  {
+    "id": 145,
+    "categoria": "Series numéricas",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 2, -4, 8, -16, 32, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "-96",
+        "imagen": ""
+      },
+      {
+        "texto": "-64",
+        "imagen": ""
+      },
+      {
+        "texto": "64",
+        "imagen": ""
+      },
+      {
+        "texto": "-32",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Cada término se multiplica por −2: 32×(−2) = −64.",
+    "tiempo": 20
+  },
+  {
+    "id": 146,
+    "categoria": "Series numéricas",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 1, -4, 9, -16, 25, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "-36",
+        "imagen": ""
+      },
+      {
+        "texto": "36",
+        "imagen": ""
+      },
+      {
+        "texto": "-49",
+        "imagen": ""
+      },
+      {
+        "texto": "-30",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Son cuadrados consecutivos con signos alternados: +1²,−2²,+3²,…,−6² = −36.",
+    "tiempo": 30
+  },
+  {
+    "id": 147,
+    "categoria": "Series numéricas",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: -3, 0, 5, 12, 21, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "30",
+        "imagen": ""
+      },
+      {
+        "texto": "36",
+        "imagen": ""
+      },
+      {
+        "texto": "34",
+        "imagen": ""
+      },
+      {
+        "texto": "32",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Las diferencias son 3,5,7,9 y 11. Por tanto, 21+11 = 32.",
+    "tiempo": 20
+  },
+  {
+    "id": 148,
+    "categoria": "Series numéricas",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 1, 3, 6, 10, 15, 21, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "29",
+        "imagen": ""
+      },
+      {
+        "texto": "30",
+        "imagen": ""
+      },
+      {
+        "texto": "27",
+        "imagen": ""
+      },
+      {
+        "texto": "28",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Se suman 2,3,4,5,6 y 7 sucesivamente; 21+7 = 28.",
+    "tiempo": 20
+  },
+  {
+    "id": 149,
+    "categoria": "Series numéricas",
+    "dificultad": "Muy difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 2, 6, 30, 210, 2310, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "27720",
+        "imagen": ""
+      },
+      {
+        "texto": "30030",
+        "imagen": ""
+      },
+      {
+        "texto": "32340",
+        "imagen": ""
+      },
+      {
+        "texto": "25410",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Se multiplica por primos consecutivos: 3,5,7,11 y 13. Sigue 2310×13 = 30030.",
+    "tiempo": 50
+  },
+  {
+    "id": 150,
+    "categoria": "Series numéricas",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 1, 2, 5, 14, 41, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "124",
+        "imagen": ""
+      },
+      {
+        "texto": "123",
+        "imagen": ""
+      },
+      {
+        "texto": "122",
+        "imagen": ""
+      },
+      {
+        "texto": "120",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "La regla es multiplicar por 3 y restar 1: 41×3−1 = 122.",
+    "tiempo": 30
+  },
+  {
+    "id": 151,
+    "categoria": "Series numéricas",
+    "dificultad": "Muy difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 13, 17, 25, 32, 37, 47, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "57",
+        "imagen": ""
+      },
+      {
+        "texto": "59",
+        "imagen": ""
+      },
+      {
+        "texto": "58",
+        "imagen": ""
+      },
+      {
+        "texto": "54",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Cada término aumenta en la suma de sus propias cifras: 13+4=17, 17+8=25, 25+7=32, 32+5=37 y 37+10=47. Sigue 47+(4+7)=58.",
+    "tiempo": 45
+  },
+  {
+    "id": 152,
+    "categoria": "Series numéricas",
+    "dificultad": "Muy difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 1, 3, 9, 33, 153, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "873",
+        "imagen": ""
+      },
+      {
+        "texto": "867",
+        "imagen": ""
+      },
+      {
+        "texto": "765",
+        "imagen": ""
+      },
+      {
+        "texto": "918",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Se suman factoriales: 2!=2, 3!=6, 4!=24, 5!=120 y 6!=720. Sigue 153+720 = 873.",
+    "tiempo": 50
+  },
+  {
+    "id": 153,
+    "categoria": "Series numéricas",
+    "dificultad": "Muy difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 1, 11, 21, 1211, 111221, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "312211",
+        "imagen": ""
+      },
+      {
+        "texto": "311221",
+        "imagen": ""
+      },
+      {
+        "texto": "13112221",
+        "imagen": ""
+      },
+      {
+        "texto": "111222",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Cada término describe los grupos del anterior. 111221 contiene tres unos, dos doses y un uno: 31 22 11; al unirlos resulta 312211.",
+    "tiempo": 50
+  },
+  {
+    "id": 154,
+    "categoria": "Series numéricas",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 1234, 2341, 3412, 4123, 1234, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "4321",
+        "imagen": ""
+      },
+      {
+        "texto": "3412",
+        "imagen": ""
+      },
+      {
+        "texto": "2341",
+        "imagen": ""
+      },
+      {
+        "texto": "2314",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "La primera cifra pasa al final en cada paso: 1234→2341→3412→4123→1234. Sigue 2341.",
+    "tiempo": 25
+  },
+  {
+    "id": 155,
+    "categoria": "Series numéricas",
+    "dificultad": "Muy difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 1, 4, 27, 256, 3125, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "7776",
+        "imagen": ""
+      },
+      {
+        "texto": "15625",
+        "imagen": ""
+      },
+      {
+        "texto": "46656",
+        "imagen": ""
+      },
+      {
+        "texto": "32768",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Son potencias nⁿ: 1¹,2²,3³,4⁴,5⁵ y 6⁶ = 46656.",
+    "tiempo": 50
+  },
+  {
+    "id": 156,
+    "categoria": "Series numéricas",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 1, 8, 22, 43, 71, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "99",
+        "imagen": ""
+      },
+      {
+        "texto": "113",
+        "imagen": ""
+      },
+      {
+        "texto": "106",
+        "imagen": ""
+      },
+      {
+        "texto": "105",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Las diferencias son múltiplos de 7: 7,14,21,28 y 35. Sigue 71+35 = 106.",
+    "tiempo": 30
+  },
+  {
+    "id": 157,
+    "categoria": "Series numéricas",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 1, 6, 15, 28, 45, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "65",
+        "imagen": ""
+      },
+      {
+        "texto": "68",
+        "imagen": ""
+      },
+      {
+        "texto": "66",
+        "imagen": ""
+      },
+      {
+        "texto": "64",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Las diferencias 5,9,13,17 aumentan de 4 en 4. Sigue sumar 21: 45+21 = 66.",
+    "tiempo": 30
+  },
+  {
+    "id": 158,
+    "categoria": "Series numéricas",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 2, 8, 18, 32, 50, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "80",
+        "imagen": ""
+      },
+      {
+        "texto": "72",
+        "imagen": ""
+      },
+      {
+        "texto": "70",
+        "imagen": ""
+      },
+      {
+        "texto": "74",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Son el doble de cuadrados consecutivos: 2×1², 2×2², …, 2×6² = 72.",
+    "tiempo": 20
+  },
+  {
+    "id": 159,
+    "categoria": "Series numéricas",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "4",
+        "imagen": ""
+      },
+      {
+        "texto": "6",
+        "imagen": ""
+      },
+      {
+        "texto": "3",
+        "imagen": ""
+      },
+      {
+        "texto": "5",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Cada entero aparece tantas veces como indica su valor: un 1, dos 2, tres 3 y cuatro 4. Después empieza el grupo de cinco 5.",
+    "tiempo": 25
+  },
+  {
+    "id": 160,
+    "categoria": "Series numéricas",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia: 10, 11, 13, 16, 20, 25, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "31",
+        "imagen": ""
+      },
+      {
+        "texto": "32",
+        "imagen": ""
+      },
+      {
+        "texto": "36",
+        "imagen": ""
+      },
+      {
+        "texto": "30",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Los incrementos son 1,2,3,4,5 y 6. Sigue 25+6 = 31.",
+    "tiempo": 20
+  },
+  {
+    "id": 161,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Un equipo cuesta S/ 400. Su precio sube 20% y después baja 25% sobre el nuevo precio. ¿Cuántos soles cuesta al final?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "400",
+        "imagen": ""
+      },
+      {
+        "texto": "350",
+        "imagen": ""
+      },
+      {
+        "texto": "360",
+        "imagen": ""
+      },
+      {
+        "texto": "380",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Primero: 400×1,20 = 480. Después: 480×0,75 = 360 soles.",
+    "tiempo": 30
+  },
+  {
+    "id": 162,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Se vende 1/3 de un lote y luego 1/4 de lo que queda. Al final quedan 36 unidades. ¿Cuántas había al inicio?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "60",
+        "imagen": ""
+      },
+      {
+        "texto": "72",
+        "imagen": ""
+      },
+      {
+        "texto": "84",
+        "imagen": ""
+      },
+      {
+        "texto": "64",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Queda (2/3)×(3/4) = 1/2 del lote. Si esa mitad es 36, el lote inicial era de 72.",
+    "tiempo": 35
+  },
+  {
+    "id": 163,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Una impresora completa un trabajo en 6 horas y otra en 12 horas. Si ambas trabajan juntas a ritmo constante, ¿en cuántas horas lo completan?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "3",
+        "imagen": ""
+      },
+      {
+        "texto": "6",
+        "imagen": ""
+      },
+      {
+        "texto": "4",
+        "imagen": ""
+      },
+      {
+        "texto": "9",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "En una hora completan 1/6 + 1/12 = 1/4 del trabajo. Necesitan 4 horas.",
+    "tiempo": 30
+  },
+  {
+    "id": 164,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Seis máquinas idénticas producen 360 piezas en 5 horas. ¿Cuántas producirán cuatro máquinas en 7 horas al mismo ritmo?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "300",
+        "imagen": ""
+      },
+      {
+        "texto": "504",
+        "imagen": ""
+      },
+      {
+        "texto": "420",
+        "imagen": ""
+      },
+      {
+        "texto": "336",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Cada máquina produce 360÷(6×5) = 12 piezas por hora. Cuatro máquinas en 7 horas producen 4×7×12 = 336.",
+    "tiempo": 35
+  },
+  {
+    "id": 165,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Dos vehículos parten simultáneamente uno hacia el otro desde lugares separados por 360 km, a 70 y 50 km/h constantes. ¿Tras cuántas horas se encuentran?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "6",
+        "imagen": ""
+      },
+      {
+        "texto": "4",
+        "imagen": ""
+      },
+      {
+        "texto": "2",
+        "imagen": ""
+      },
+      {
+        "texto": "3",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "La distancia se reduce a 70+50 = 120 km/h. El encuentro ocurre a las 360÷120 = 3 horas.",
+    "tiempo": 25
+  },
+  {
+    "id": 166,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Un viaje recorre 120 km a 60 km/h y vuelve los mismos 120 km a 40 km/h, sin paradas. ¿Cuál es la velocidad media total en km/h?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "50",
+        "imagen": ""
+      },
+      {
+        "texto": "48",
+        "imagen": ""
+      },
+      {
+        "texto": "52",
+        "imagen": ""
+      },
+      {
+        "texto": "45",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "La ida tarda 2 h y la vuelta 3 h. La velocidad media es 240÷5 = 48 km/h.",
+    "tiempo": 35
+  },
+  {
+    "id": 167,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Ana tiene el doble de edad que Luis. Dentro de 6 años, sus edades sumarán 54. ¿Cuántos años tiene Ana ahora?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "30",
+        "imagen": ""
+      },
+      {
+        "texto": "36",
+        "imagen": ""
+      },
+      {
+        "texto": "24",
+        "imagen": ""
+      },
+      {
+        "texto": "28",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Ahora suman 54−12 = 42. Si Luis tiene x y Ana 2x, entonces 3x=42; Ana tiene 28.",
+    "tiempo": 35
+  },
+  {
+    "id": 168,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "En un corral hay solo gallinas y conejos, todos con el número habitual de patas. Se cuentan 20 cabezas y 56 patas. ¿Cuántos conejos hay?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "8",
+        "imagen": ""
+      },
+      {
+        "texto": "6",
+        "imagen": ""
+      },
+      {
+        "texto": "10",
+        "imagen": ""
+      },
+      {
+        "texto": "12",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Si todos fueran gallinas habría 40 patas. Las 16 patas adicionales corresponden a 16÷2 = 8 conejos.",
+    "tiempo": 30
+  },
+  {
+    "id": 169,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Se compran 12 cuadernos: unos cuestan S/ 6 y otros S/ 10. Se pagan S/ 104. ¿Cuántos cuadernos de S/ 10 se compraron?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "6",
+        "imagen": ""
+      },
+      {
+        "texto": "8",
+        "imagen": ""
+      },
+      {
+        "texto": "4",
+        "imagen": ""
+      },
+      {
+        "texto": "10",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Doce cuadernos de S/ 6 costarían S/ 72. La diferencia de S/ 32 equivale a 32÷4 = 8 cuadernos más caros.",
+    "tiempo": 30
+  },
+  {
+    "id": 170,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Se mezclan 12 L de una solución con 10% de sal y 8 L con 25% de sal. Suponiendo volúmenes aditivos, ¿qué porcentaje de sal tiene la mezcla?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "15%",
+        "imagen": ""
+      },
+      {
+        "texto": "16%",
+        "imagen": ""
+      },
+      {
+        "texto": "17%",
+        "imagen": ""
+      },
+      {
+        "texto": "18%",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "La sal total equivale a 12×0,10 + 8×0,25 = 3,2 L. En 20 L, representa 3,2÷20×100 = 16%.",
+    "tiempo": 40
+  },
+  {
+    "id": 171,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Un grupo de 20 estudiantes obtuvo promedio 14 y otro de 30 obtuvo promedio 16. ¿Cuál es el promedio de los 50 estudiantes?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "15,5",
+        "imagen": ""
+      },
+      {
+        "texto": "15,2",
+        "imagen": ""
+      },
+      {
+        "texto": "16",
+        "imagen": ""
+      },
+      {
+        "texto": "15",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "La suma de notas es 20×14 + 30×16 = 760. El promedio conjunto es 760÷50 = 15,2.",
+    "tiempo": 35
+  },
+  {
+    "id": 172,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Tres evaluaciones pesan 20%, 30% y 50%. Las notas respectivas son 14, 16 y 18. ¿Cuál es la nota final ponderada?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "16",
+        "imagen": ""
+      },
+      {
+        "texto": "17",
+        "imagen": ""
+      },
+      {
+        "texto": "16,6",
+        "imagen": ""
+      },
+      {
+        "texto": "16,2",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Se calcula 14×0,20 + 16×0,30 + 18×0,50 = 2,8+4,8+9 = 16,6.",
+    "tiempo": 30
+  },
+  {
+    "id": 173,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Cinco números impares consecutivos suman 145. ¿Cuál es el mayor?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "33",
+        "imagen": ""
+      },
+      {
+        "texto": "35",
+        "imagen": ""
+      },
+      {
+        "texto": "29",
+        "imagen": ""
+      },
+      {
+        "texto": "31",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "El número central es 145÷5 = 29. Los números son 25,27,29,31,33.",
+    "tiempo": 30
+  },
+  {
+    "id": 174,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Un reloj adelanta 3 minutos por cada 2 horas reales. Si se ajustó correctamente, ¿cuántos minutos adelantará después de 8 horas reales?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "9",
+        "imagen": ""
+      },
+      {
+        "texto": "16",
+        "imagen": ""
+      },
+      {
+        "texto": "12",
+        "imagen": ""
+      },
+      {
+        "texto": "6",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Ocho horas contienen cuatro intervalos de 2 horas. El adelanto es 4×3 = 12 minutos.",
+    "tiempo": 20
+  },
+  {
+    "id": 175,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Un rectángulo tiene perímetro 54 cm y su largo supera al ancho en 5 cm. ¿Cuál es su área en cm²?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "154",
+        "imagen": ""
+      },
+      {
+        "texto": "180",
+        "imagen": ""
+      },
+      {
+        "texto": "176",
+        "imagen": ""
+      },
+      {
+        "texto": "196",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Largo+ancho = 27. Con largo=ancho+5, se obtiene ancho=11 y largo=16. El área es 11×16 = 176.",
+    "tiempo": 40
+  },
+  {
+    "id": 176,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Muy difícil",
+    "tipo": "texto",
+    "pregunta": "Una cuadrícula rectangular tiene 2 filas y 3 columnas de casillas. ¿Cuántos rectángulos, incluidos cuadrados y figuras de varias casillas, tienen lados sobre sus líneas?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "24",
+        "imagen": ""
+      },
+      {
+        "texto": "12",
+        "imagen": ""
+      },
+      {
+        "texto": "18",
+        "imagen": ""
+      },
+      {
+        "texto": "6",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Hay 3 líneas horizontales y 4 verticales. Elegir 2 de cada grupo determina un rectángulo: C(3,2)×C(4,2) = 3×6 = 18.",
+    "tiempo": 45
+  },
+  {
+    "id": 177,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Dos avisos se repiten cada 12 y 18 minutos. Si coinciden a las 9:00, ¿cuántos minutos pasarán hasta su siguiente coincidencia?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "30",
+        "imagen": ""
+      },
+      {
+        "texto": "24",
+        "imagen": ""
+      },
+      {
+        "texto": "72",
+        "imagen": ""
+      },
+      {
+        "texto": "36",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "La siguiente coincidencia ocurre en el mínimo común múltiplo de 12 y 18: 36 minutos.",
+    "tiempo": 25
+  },
+  {
+    "id": 178,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Dos cintas miden 84 y 126 cm. Se cortan en tramos iguales, lo más largos posible y sin sobrantes. ¿Cuántos centímetros mide cada tramo?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "28",
+        "imagen": ""
+      },
+      {
+        "texto": "21",
+        "imagen": ""
+      },
+      {
+        "texto": "42",
+        "imagen": ""
+      },
+      {
+        "texto": "63",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "La mayor longitud que divide ambas medidas es su máximo común divisor: MCD(84,126) = 42.",
+    "tiempo": 30
+  },
+  {
+    "id": 179,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Cada caja admite como máximo 8 piezas. ¿Cuál es el mínimo de cajas necesario para guardar 127 piezas?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "18",
+        "imagen": ""
+      },
+      {
+        "texto": "16",
+        "imagen": ""
+      },
+      {
+        "texto": "15",
+        "imagen": ""
+      },
+      {
+        "texto": "17",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Quince cajas admiten solo 120 piezas. Hace falta una caja adicional para las otras 7: 16 cajas.",
+    "tiempo": 20
+  },
+  {
+    "id": 180,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Una bolsa contiene 4 fichas rojas, 5 azules y 3 verdes, todas con igual probabilidad de salir. ¿Cuál es la probabilidad de sacar una roja en una extracción?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "1/3",
+        "imagen": ""
+      },
+      {
+        "texto": "2/3",
+        "imagen": ""
+      },
+      {
+        "texto": "0,25",
+        "imagen": ""
+      },
+      {
+        "texto": "4/9",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Hay 12 fichas en total y 4 son rojas: 4/12 = 1/3.",
+    "tiempo": 25
+  },
+  {
+    "id": 181,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Una bolsa contiene 3 fichas rojas y 2 azules. Se extraen dos al azar sin devolver la primera. ¿Cuál es la probabilidad de que ambas sean rojas?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "0,6",
+        "imagen": ""
+      },
+      {
+        "texto": "0,4",
+        "imagen": ""
+      },
+      {
+        "texto": "0,3",
+        "imagen": ""
+      },
+      {
+        "texto": "0,36",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "La primera es roja con probabilidad 3/5; después quedan 2 rojas entre 4 fichas. El producto es (3/5)×(2/4) = 3/10.",
+    "tiempo": 35
+  },
+  {
+    "id": 182,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "¿De cuántas maneras se pueden ordenar en una fila cuatro libros distintos?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "32",
+        "imagen": ""
+      },
+      {
+        "texto": "12",
+        "imagen": ""
+      },
+      {
+        "texto": "16",
+        "imagen": ""
+      },
+      {
+        "texto": "24",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Hay 4 elecciones para el primero, 3 para el segundo, 2 para el tercero y 1 para el último: 4×3×2×1 = 24.",
+    "tiempo": 25
+  },
+  {
+    "id": 183,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Un equipo de ocho personas elige una pareja de representantes sin distinguir cargos. ¿Cuántas parejas diferentes puede elegir?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "56",
+        "imagen": ""
+      },
+      {
+        "texto": "32",
+        "imagen": ""
+      },
+      {
+        "texto": "16",
+        "imagen": ""
+      },
+      {
+        "texto": "28",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Se cuentan 8×7 elecciones ordenadas y se divide entre 2 porque cada pareja se contó dos veces: 56÷2 = 28.",
+    "tiempo": 30
+  },
+  {
+    "id": 184,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Un artículo baja de S/ 320 a S/ 272. ¿Qué porcentaje de descuento se aplicó?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "20%",
+        "imagen": ""
+      },
+      {
+        "texto": "18%",
+        "imagen": ""
+      },
+      {
+        "texto": "15%",
+        "imagen": ""
+      },
+      {
+        "texto": "12%",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "La rebaja es 320−272 = 48. Respecto al precio inicial, 48÷320×100 = 15%.",
+    "tiempo": 25
+  },
+  {
+    "id": 185,
+    "categoria": "Razonamiento numérico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "En un número de dos cifras, la cifra de las unidades es el doble que la de las decenas. Las cifras suman 9. ¿Cuál es el número?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "27",
+        "imagen": ""
+      },
+      {
+        "texto": "36",
+        "imagen": ""
+      },
+      {
+        "texto": "18",
+        "imagen": ""
+      },
+      {
+        "texto": "63",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Si la decena es d, las unidades son 2d. De 3d=9 resulta d=3; las unidades son 6 y el número es 36.",
+    "tiempo": 25
+  },
+  {
+    "id": 186,
+    "categoria": "Matemática rápida",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Calcula mentalmente: 96 × 125.",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "12000",
+        "imagen": ""
+      },
+      {
+        "texto": "12500",
+        "imagen": ""
+      },
+      {
+        "texto": "11500",
+        "imagen": ""
+      },
+      {
+        "texto": "9600",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "125 es 1000÷8. Entonces 96×125 = (96÷8)×1000 = 12000.",
+    "tiempo": 20
+  },
+  {
+    "id": 187,
+    "categoria": "Matemática rápida",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Calcula: 101 × 99.",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "9999",
+        "imagen": ""
+      },
+      {
+        "texto": "9900",
+        "imagen": ""
+      },
+      {
+        "texto": "10001",
+        "imagen": ""
+      },
+      {
+        "texto": "10099",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "(100+1)(100−1) = 100²−1² = 9999.",
+    "tiempo": 15
+  },
+  {
+    "id": 188,
+    "categoria": "Matemática rápida",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "¿Cuánto es el 12,5% de 640?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "96",
+        "imagen": ""
+      },
+      {
+        "texto": "64",
+        "imagen": ""
+      },
+      {
+        "texto": "80",
+        "imagen": ""
+      },
+      {
+        "texto": "75",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "12,5% equivale a 1/8; 640÷8 = 80.",
+    "tiempo": 15
+  },
+  {
+    "id": 189,
+    "categoria": "Matemática rápida",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "¿Cuánto es el 2,5% de 480?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "24",
+        "imagen": ""
+      },
+      {
+        "texto": "16",
+        "imagen": ""
+      },
+      {
+        "texto": "10",
+        "imagen": ""
+      },
+      {
+        "texto": "12",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "El 10% de 480 es 48. El 2,5% es la cuarta parte de 48: 12.",
+    "tiempo": 15
+  },
+  {
+    "id": 190,
+    "categoria": "Matemática rápida",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Resuelve: 7/12 + 5/18.",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "29/36",
+        "imagen": ""
+      },
+      {
+        "texto": "5/6",
+        "imagen": ""
+      },
+      {
+        "texto": "0,4",
+        "imagen": ""
+      },
+      {
+        "texto": "31/36",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Con denominador común 36: 7/12=21/36 y 5/18=10/36. La suma es 31/36.",
+    "tiempo": 25
+  },
+  {
+    "id": 191,
+    "categoria": "Matemática rápida",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Resuelve: (3/5) ÷ (9/10).",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "1/3",
+        "imagen": ""
+      },
+      {
+        "texto": "0,54",
+        "imagen": ""
+      },
+      {
+        "texto": "2/3",
+        "imagen": ""
+      },
+      {
+        "texto": "1,5",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Se multiplica por el recíproco: (3/5)×(10/9)=30/45=2/3.",
+    "tiempo": 20
+  },
+  {
+    "id": 192,
+    "categoria": "Matemática rápida",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Calcula: 2,4 ÷ 0,06.",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "400",
+        "imagen": ""
+      },
+      {
+        "texto": "24",
+        "imagen": ""
+      },
+      {
+        "texto": "4",
+        "imagen": ""
+      },
+      {
+        "texto": "40",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Multiplica ambos números por 100: 240÷6 = 40.",
+    "tiempo": 15
+  },
+  {
+    "id": 193,
+    "categoria": "Matemática rápida",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Calcula: 0,125 × 72.",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "18",
+        "imagen": ""
+      },
+      {
+        "texto": "8",
+        "imagen": ""
+      },
+      {
+        "texto": "12",
+        "imagen": ""
+      },
+      {
+        "texto": "9",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "0,125=1/8. Por eso 72÷8 = 9.",
+    "tiempo": 15
+  },
+  {
+    "id": 194,
+    "categoria": "Matemática rápida",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Resuelve: (18 − 6)² ÷ 8 + 3.",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "24",
+        "imagen": ""
+      },
+      {
+        "texto": "18",
+        "imagen": ""
+      },
+      {
+        "texto": "15",
+        "imagen": ""
+      },
+      {
+        "texto": "21",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Primero 18−6=12; luego 12²=144, 144÷8=18 y 18+3=21.",
+    "tiempo": 20
+  },
+  {
+    "id": 195,
+    "categoria": "Matemática rápida",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Resuelve: 3⁴ − 2⁵.",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "47",
+        "imagen": ""
+      },
+      {
+        "texto": "57",
+        "imagen": ""
+      },
+      {
+        "texto": "17",
+        "imagen": ""
+      },
+      {
+        "texto": "49",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "3⁴=81 y 2⁵=32. La diferencia es 81−32 = 49.",
+    "tiempo": 20
+  },
+  {
+    "id": 196,
+    "categoria": "Matemática rápida",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Calcula: √2025.",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "55",
+        "imagen": ""
+      },
+      {
+        "texto": "45",
+        "imagen": ""
+      },
+      {
+        "texto": "40",
+        "imagen": ""
+      },
+      {
+        "texto": "35",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "45²=(40+5)²=1600+400+25=2025. La raíz cuadrada principal es 45.",
+    "tiempo": 20
+  },
+  {
+    "id": 197,
+    "categoria": "Matemática rápida",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Calcula: 999 × 7.",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "6997",
+        "imagen": ""
+      },
+      {
+        "texto": "6993",
+        "imagen": ""
+      },
+      {
+        "texto": "7003",
+        "imagen": ""
+      },
+      {
+        "texto": "6983",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "(1000−1)×7 = 7000−7 = 6993.",
+    "tiempo": 15
+  },
+  {
+    "id": 198,
+    "categoria": "Matemática rápida",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Calcula: 52² − 48².",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "416",
+        "imagen": ""
+      },
+      {
+        "texto": "384",
+        "imagen": ""
+      },
+      {
+        "texto": "400",
+        "imagen": ""
+      },
+      {
+        "texto": "200",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Usa diferencia de cuadrados: (52−48)(52+48)=4×100=400.",
+    "tiempo": 20
+  },
+  {
+    "id": 199,
+    "categoria": "Matemática rápida",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Resuelve: 1/2 + 1/4 + 1/8 + 1/16.",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "1",
+        "imagen": ""
+      },
+      {
+        "texto": "0,9375",
+        "imagen": ""
+      },
+      {
+        "texto": "0,8125",
+        "imagen": ""
+      },
+      {
+        "texto": "0,875",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Con denominador 16: (8+4+2+1)/16 = 15/16.",
+    "tiempo": 20
+  },
+  {
+    "id": 200,
+    "categoria": "Matemática rápida",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Si 5(x − 2) = 3x + 14, ¿cuánto vale x?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "8",
+        "imagen": ""
+      },
+      {
+        "texto": "14",
+        "imagen": ""
+      },
+      {
+        "texto": "12",
+        "imagen": ""
+      },
+      {
+        "texto": "10",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "5x−10=3x+14; entonces 2x=24 y x=12. Comprueba: 5×10=50 y 36+14=50.",
+    "tiempo": 25
+  },
+  {
+    "id": 201,
+    "categoria": "Matemática rápida",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Calcula el promedio de 18, 22, 26 y 30.",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "23",
+        "imagen": ""
+      },
+      {
+        "texto": "24",
+        "imagen": ""
+      },
+      {
+        "texto": "25",
+        "imagen": ""
+      },
+      {
+        "texto": "26",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "La suma es 96; 96÷4 = 24. También es el promedio entre los extremos 18 y 30.",
+    "tiempo": 15
+  },
+  {
+    "id": 202,
+    "categoria": "Matemática rápida",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Calcula: 35% de 80 + 20% de 60.",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "36",
+        "imagen": ""
+      },
+      {
+        "texto": "32",
+        "imagen": ""
+      },
+      {
+        "texto": "44",
+        "imagen": ""
+      },
+      {
+        "texto": "40",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "35% de 80 es 28 y 20% de 60 es 12. La suma es 40.",
+    "tiempo": 20
+  },
+  {
+    "id": 203,
+    "categoria": "Matemática rápida",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Calcula: 6! ÷ 4!, donde n! es el producto de los enteros de 1 a n.",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "36",
+        "imagen": ""
+      },
+      {
+        "texto": "120",
+        "imagen": ""
+      },
+      {
+        "texto": "30",
+        "imagen": ""
+      },
+      {
+        "texto": "24",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "6! = 6×5×4!. Al dividir entre 4! queda 6×5 = 30.",
+    "tiempo": 25
+  },
+  {
+    "id": 204,
+    "categoria": "Matemática rápida",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Calcula: |−7| − |3 − 8|.",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "2",
+        "imagen": ""
+      },
+      {
+        "texto": "-12",
+        "imagen": ""
+      },
+      {
+        "texto": "-2",
+        "imagen": ""
+      },
+      {
+        "texto": "12",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "|−7|=7 y |3−8|=|−5|=5. La diferencia es 7−5=2.",
+    "tiempo": 20
+  },
+  {
+    "id": 205,
+    "categoria": "Matemática rápida",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Calcula: 1,2² − 0,2².",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "1",
+        "imagen": ""
+      },
+      {
+        "texto": "1,2",
+        "imagen": ""
+      },
+      {
+        "texto": "1,4",
+        "imagen": ""
+      },
+      {
+        "texto": "1,44",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Por diferencia de cuadrados: (1,2−0,2)(1,2+0,2)=1×1,4=1,4.",
+    "tiempo": 20
+  },
+  {
+    "id": 206,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Algunos expedientes archivados están digitalizados. Todo expediente digitalizado tiene una copia de respaldo. ¿Qué se deduce necesariamente?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Todo expediente con respaldo está archivado.",
+        "imagen": ""
+      },
+      {
+        "texto": "Algunos expedientes archivados tienen respaldo.",
+        "imagen": ""
+      },
+      {
+        "texto": "Ningún expediente archivado tiene respaldo.",
+        "imagen": ""
+      },
+      {
+        "texto": "Todos los expedientes archivados están digitalizados.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Los expedientes que son a la vez archivados y digitalizados pertenecen también al conjunto con respaldo. No se afirma nada sobre todos los archivados.",
+    "tiempo": 25
+  },
+  {
+    "id": 207,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Todas las fichas del grupo A son de cobre. Ningún objeto de cobre es de madera. ¿Qué afirmación es obligatoria?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Algunas fichas del grupo A son de madera.",
+        "imagen": ""
+      },
+      {
+        "texto": "Todo objeto de cobre es una ficha del grupo A.",
+        "imagen": ""
+      },
+      {
+        "texto": "Todos los objetos de madera son fichas del grupo A.",
+        "imagen": ""
+      },
+      {
+        "texto": "Ninguna ficha del grupo A es de madera.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "El grupo A está incluido en cobre, y cobre no comparte elementos con madera. Por tanto A tampoco comparte elementos con madera.",
+    "tiempo": 25
+  },
+  {
+    "id": 208,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Algunos músicos son docentes y algunos docentes son escritores. ¿Puede asegurarse que hay músicos que son escritores?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Sí; basta con que compartan la palabra docentes.",
+        "imagen": ""
+      },
+      {
+        "texto": "Sí; todo docente pertenece a ambos grupos.",
+        "imagen": ""
+      },
+      {
+        "texto": "No; se ha demostrado que ambos grupos son incompatibles.",
+        "imagen": ""
+      },
+      {
+        "texto": "No; los dos grupos de docentes podrían ser distintos.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "El primer grupo de docentes puede no coincidir con el segundo. Tampoco se ha demostrado que músicos y escritores nunca coincidan.",
+    "tiempo": 30
+  },
+  {
+    "id": 209,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Si se aprueba el diseño, se fabrica el modelo. Si se fabrica el modelo, se realiza la prueba. La prueba no se realizó. Según estas reglas, ¿qué se deduce sobre el diseño?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "El diseño no fue aprobado.",
+        "imagen": ""
+      },
+      {
+        "texto": "Se aprobó el diseño, pero no se fabricó el modelo.",
+        "imagen": ""
+      },
+      {
+        "texto": "No puede determinarse si fue aprobado.",
+        "imagen": ""
+      },
+      {
+        "texto": "El diseño fue aprobado.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "No realizar la prueba implica que no se fabricó el modelo; no fabricarlo implica que no se aprobó el diseño, por contraposición de ambas reglas.",
+    "tiempo": 30
+  },
+  {
+    "id": 210,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Se entrega una constancia si y solo si se asiste a la sesión y se presenta el trabajo. Rosa asistió, pero no presentó el trabajo. ¿Recibe la constancia según la regla?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "No; no cumplió las dos condiciones.",
+        "imagen": ""
+      },
+      {
+        "texto": "No puede saberse si cumplió ambas condiciones.",
+        "imagen": ""
+      },
+      {
+        "texto": "Sí; asistir es suficiente por sí solo.",
+        "imagen": ""
+      },
+      {
+        "texto": "Sí; basta con cumplir cualquier condición.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "La condición es la conjunción de asistencia y entrega. Falta la entrega, así que no corresponde la constancia.",
+    "tiempo": 25
+  },
+  {
+    "id": 211,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Al menos una de estas dos personas, Ana o Bruno, presentó el informe. Ana no lo presentó. ¿Qué se deduce?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Bruno presentó el informe.",
+        "imagen": ""
+      },
+      {
+        "texto": "Ana y Bruno lo presentaron.",
+        "imagen": ""
+      },
+      {
+        "texto": "Bruno no presentó el informe.",
+        "imagen": ""
+      },
+      {
+        "texto": "Ninguno presentó el informe.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Si al menos uno presentó y Ana queda descartada, Bruno necesariamente lo presentó.",
+    "tiempo": 20
+  },
+  {
+    "id": 212,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Muy difícil",
+    "tipo": "texto",
+    "pregunta": "Una ficha está en una de tres cajas: roja, azul o verde. La roja dice «Está en la azul»; la azul dice «No está en la azul»; la verde dice «No está en la roja». Exactamente una frase es verdadera. ¿Dónde está la ficha?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "En la azul.",
+        "imagen": ""
+      },
+      {
+        "texto": "No puede determinarse.",
+        "imagen": ""
+      },
+      {
+        "texto": "En la verde.",
+        "imagen": ""
+      },
+      {
+        "texto": "En la roja.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Si está en la roja, las frases son falsa, verdadera y falsa: exactamente una verdadera. Si está en la azul o en la verde, habría dos verdaderas.",
+    "tiempo": 50
+  },
+  {
+    "id": 213,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Cuatro personas llegan en momentos distintos. Dora llega antes que Carla, Carla antes que Ana y Ana antes que Bruno. ¿Quién llega en segundo lugar?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Dora",
+        "imagen": ""
+      },
+      {
+        "texto": "Ana",
+        "imagen": ""
+      },
+      {
+        "texto": "Carla",
+        "imagen": ""
+      },
+      {
+        "texto": "Bruno",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "El orden obligado es Dora, Carla, Ana, Bruno. Por tanto Carla llega segunda.",
+    "tiempo": 25
+  },
+  {
+    "id": 214,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Ana, Bruno y Carla usan, cada uno, un color distinto: rojo, azul y verde. Ana no usa rojo ni azul. Bruno no usa rojo. ¿Qué color usa Carla?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "No puede determinarse.",
+        "imagen": ""
+      },
+      {
+        "texto": "Rojo",
+        "imagen": ""
+      },
+      {
+        "texto": "Azul",
+        "imagen": ""
+      },
+      {
+        "texto": "Verde",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Ana debe usar verde. Bruno, que no puede usar rojo ni el verde ya asignado, usa azul. Carla usa rojo.",
+    "tiempo": 30
+  },
+  {
+    "id": 215,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Lucía ocupa el tercer lugar desde el inicio y el séptimo desde el final de una fila. ¿Cuántas personas hay en total?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "9",
+        "imagen": ""
+      },
+      {
+        "texto": "10",
+        "imagen": ""
+      },
+      {
+        "texto": "11",
+        "imagen": ""
+      },
+      {
+        "texto": "8",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Se suman 3 y 7, pero Lucía está contada dos veces: 3+7−1 = 9.",
+    "tiempo": 20
+  },
+  {
+    "id": 216,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Si anteayer fue jueves, ¿qué día será pasado mañana?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Domingo",
+        "imagen": ""
+      },
+      {
+        "texto": "Martes",
+        "imagen": ""
+      },
+      {
+        "texto": "Lunes",
+        "imagen": ""
+      },
+      {
+        "texto": "Miércoles",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Si anteayer fue jueves, ayer fue viernes y hoy es sábado. Mañana es domingo y pasado mañana es lunes.",
+    "tiempo": 25
+  },
+  {
+    "id": 217,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Todos los documentos del grupo P tienen sello. ¿Qué afirmación equivalente evita invertir la relación?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Todo documento ajeno a P carece de sello.",
+        "imagen": ""
+      },
+      {
+        "texto": "Ningún documento de P tiene sello.",
+        "imagen": ""
+      },
+      {
+        "texto": "Si un documento no tiene sello, no pertenece a P.",
+        "imagen": ""
+      },
+      {
+        "texto": "Todo documento con sello pertenece a P.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "La contraposición de pertenecer a P implica tener sello es no tener sello implica no pertenecer a P. La relación inversa no está garantizada.",
+    "tiempo": 30
+  },
+  {
+    "id": 218,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "¿Cuál es la negación lógica de «Todos los informes están completos»?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Al menos un informe no está completo.",
+        "imagen": ""
+      },
+      {
+        "texto": "Todos los informes están incompletos.",
+        "imagen": ""
+      },
+      {
+        "texto": "Al menos un informe está completo.",
+        "imagen": ""
+      },
+      {
+        "texto": "Ningún informe está completo.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Para que sea falsa la afirmación universal, basta que exista un informe incompleto. No hace falta que todos lo estén.",
+    "tiempo": 25
+  },
+  {
+    "id": 219,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Las cajas tienen masas distintas. A pesa más que B; C pesa más que A; D pesa más que B; E pesa más que D. ¿Cuál es necesariamente la más ligera?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "D",
+        "imagen": ""
+      },
+      {
+        "texto": "B",
+        "imagen": ""
+      },
+      {
+        "texto": "A",
+        "imagen": ""
+      },
+      {
+        "texto": "C",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "B pesa menos que A y, por transitividad, que C. También pesa menos que D y, por transitividad, que E.",
+    "tiempo": 30
+  },
+  {
+    "id": 220,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Todo documento del lote es digital, traducido o ambas cosas. Ningún documento digital es manuscrito. Un documento del lote es manuscrito. ¿Qué se deduce?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "No es digital ni está traducido.",
+        "imagen": ""
+      },
+      {
+        "texto": "Es digital y no está traducido.",
+        "imagen": ""
+      },
+      {
+        "texto": "Está traducido y no es digital.",
+        "imagen": ""
+      },
+      {
+        "texto": "Es digital y está traducido.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Al ser manuscrito, no puede ser digital. Como todo documento del lote es digital o traducido, debe estar traducido.",
+    "tiempo": 35
+  },
+  {
+    "id": 221,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Si a es un entero par y b un entero impar, ¿qué puede afirmarse siempre de a + 2b?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Es par.",
+        "imagen": ""
+      },
+      {
+        "texto": "Es negativo.",
+        "imagen": ""
+      },
+      {
+        "texto": "Es múltiplo de 4.",
+        "imagen": ""
+      },
+      {
+        "texto": "Es impar.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "2b es par. La suma de dos pares es par. Puede ser o no múltiplo de 4 y no tiene un signo obligatorio.",
+    "tiempo": 25
+  },
+  {
+    "id": 222,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Las tareas A, B, C y D se realizan una por día, de lunes a jueves. B es el martes, A ocurre antes que C y D después que C. ¿Qué día se realiza D?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Lunes",
+        "imagen": ""
+      },
+      {
+        "texto": "Jueves",
+        "imagen": ""
+      },
+      {
+        "texto": "Martes",
+        "imagen": ""
+      },
+      {
+        "texto": "Miércoles",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "La cadena A<C<D necesita tres días en orden. Al estar martes reservado para B, solo puede ser A lunes, C miércoles y D jueves.",
+    "tiempo": 35
+  },
+  {
+    "id": 223,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Se reparten siete fichas entre tres cajas. ¿Cuál es el mayor mínimo de fichas que puedes garantizar en alguna caja, sin importar el reparto?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "4",
+        "imagen": ""
+      },
+      {
+        "texto": "3",
+        "imagen": ""
+      },
+      {
+        "texto": "5",
+        "imagen": ""
+      },
+      {
+        "texto": "2",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Si cada caja tuviera como máximo 2, solo cabrían 6. Alguna debe tener 3 o más; el reparto 3,2,2 demuestra que no se pueden garantizar 4.",
+    "tiempo": 35
+  },
+  {
+    "id": 224,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Un entero es mayor que 20 y menor que 40, es múltiplo de 6 y deja residuo 1 al dividirlo entre 5. ¿Cuál es?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "24",
+        "imagen": ""
+      },
+      {
+        "texto": "30",
+        "imagen": ""
+      },
+      {
+        "texto": "18",
+        "imagen": ""
+      },
+      {
+        "texto": "36",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Los múltiplos de 6 en ese intervalo son 24,30,36. Sus residuos al dividir entre 5 son 4,0,1 respectivamente.",
+    "tiempo": 35
+  },
+  {
+    "id": 225,
+    "categoria": "Razonamiento lógico",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Si se elige A, también debe elegirse B. Si se elige B, no se puede elegir C. Se eligió C. ¿Qué se deduce necesariamente?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "No se eligieron A ni B.",
+        "imagen": ""
+      },
+      {
+        "texto": "Se eligieron A y B.",
+        "imagen": ""
+      },
+      {
+        "texto": "Se eligió A, pero no B.",
+        "imagen": ""
+      },
+      {
+        "texto": "Se eligió B, pero no A.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Elegir C descarta B. Como elegir A obligaría a elegir B, también queda descartada A.",
+    "tiempo": 30
+  },
+  {
+    "id": 226,
+    "categoria": "Analogías",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Oruga es a mariposa como renacuajo es a…",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Rana",
+        "imagen": ""
+      },
+      {
+        "texto": "Lagarto",
+        "imagen": ""
+      },
+      {
+        "texto": "Tortuga",
+        "imagen": ""
+      },
+      {
+        "texto": "Pez",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "La relación es entre una etapa larvaria y el animal adulto: la oruga se transforma en mariposa y el renacuajo en rana.",
+    "tiempo": 25
+  },
+  {
+    "id": 227,
+    "categoria": "Analogías",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Prólogo es a libro como obertura es a…",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Fotografía",
+        "imagen": ""
+      },
+      {
+        "texto": "Escultura",
+        "imagen": ""
+      },
+      {
+        "texto": "Pintura",
+        "imagen": ""
+      },
+      {
+        "texto": "Ópera",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "El prólogo introduce un libro; una obertura puede introducir una ópera. En ambos casos se relacionan introducción y obra.",
+    "tiempo": 25
+  },
+  {
+    "id": 228,
+    "categoria": "Analogías",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Raíz es a árbol como cimiento es a…",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Edificio",
+        "imagen": ""
+      },
+      {
+        "texto": "Ladrillo",
+        "imagen": ""
+      },
+      {
+        "texto": "Pintura",
+        "imagen": ""
+      },
+      {
+        "texto": "Ventana",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "La raíz sostiene y fija el árbol; el cimiento cumple una función de soporte para el edificio.",
+    "tiempo": 25
+  },
+  {
+    "id": 229,
+    "categoria": "Analogías",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Triángulo es a tres lados como pentágono es a…",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Siete lados",
+        "imagen": ""
+      },
+      {
+        "texto": "Cuatro lados",
+        "imagen": ""
+      },
+      {
+        "texto": "Cinco lados",
+        "imagen": ""
+      },
+      {
+        "texto": "Seis lados",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "La relación asocia cada polígono con su número de lados: triángulo tiene tres y pentágono cinco.",
+    "tiempo": 25
+  },
+  {
+    "id": 230,
+    "categoria": "Analogías",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Mapa es a territorio como maqueta arquitectónica es a…",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Herramienta",
+        "imagen": ""
+      },
+      {
+        "texto": "Presupuesto",
+        "imagen": ""
+      },
+      {
+        "texto": "Constructor",
+        "imagen": ""
+      },
+      {
+        "texto": "Edificio",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Un mapa representa un territorio; una maqueta arquitectónica representa un edificio. La relación es representación y objeto representado.",
+    "tiempo": 25
+  },
+  {
+    "id": 231,
+    "categoria": "Analogías",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Audición es a sonido como visión es a…",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Temperatura",
+        "imagen": ""
+      },
+      {
+        "texto": "Olor",
+        "imagen": ""
+      },
+      {
+        "texto": "Luz",
+        "imagen": ""
+      },
+      {
+        "texto": "Presión",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Cada sentido se relaciona con el estímulo que capta: la audición con el sonido y la visión con la luz.",
+    "tiempo": 25
+  },
+  {
+    "id": 232,
+    "categoria": "Analogías",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Opaco es a luz como impermeable es a…",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Ruido",
+        "imagen": ""
+      },
+      {
+        "texto": "Calor",
+        "imagen": ""
+      },
+      {
+        "texto": "Peso",
+        "imagen": ""
+      },
+      {
+        "texto": "Agua",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Opaco describe un material que no deja pasar la luz; impermeable al agua describe uno que no deja pasar agua.",
+    "tiempo": 25
+  },
+  {
+    "id": 233,
+    "categoria": "Analogías",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Velocímetro es a rapidez como manómetro es a…",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Tiempo",
+        "imagen": ""
+      },
+      {
+        "texto": "Longitud",
+        "imagen": ""
+      },
+      {
+        "texto": "Presión",
+        "imagen": ""
+      },
+      {
+        "texto": "Volumen",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "La relación vincula un instrumento con la magnitud que mide: rapidez y presión respectivamente.",
+    "tiempo": 25
+  },
+  {
+    "id": 234,
+    "categoria": "Analogías",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Equidad es a imparcialidad como tenacidad es a…",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Distracción",
+        "imagen": ""
+      },
+      {
+        "texto": "Fragilidad",
+        "imagen": ""
+      },
+      {
+        "texto": "Perseverancia",
+        "imagen": ""
+      },
+      {
+        "texto": "Indecisión",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Ambos pares expresan sentidos próximos: la equidad se relaciona con la imparcialidad y la tenacidad con persistir o perseverar.",
+    "tiempo": 25
+  },
+  {
+    "id": 235,
+    "categoria": "Analogías",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Kilogramo es a masa como segundo es a…",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Temperatura",
+        "imagen": ""
+      },
+      {
+        "texto": "Área",
+        "imagen": ""
+      },
+      {
+        "texto": "Fuerza",
+        "imagen": ""
+      },
+      {
+        "texto": "Tiempo",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Se relaciona una unidad de medida con la magnitud correspondiente: kilogramo para masa y segundo para tiempo.",
+    "tiempo": 25
+  },
+  {
+    "id": 236,
+    "categoria": "Razonamiento verbal",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "En «La explicación es plausible», ¿qué significa «plausible»?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Razonable o admisible.",
+        "imagen": ""
+      },
+      {
+        "texto": "Demasiado breve para entenderse.",
+        "imagen": ""
+      },
+      {
+        "texto": "Imposible en toda circunstancia.",
+        "imagen": ""
+      },
+      {
+        "texto": "Demostrada sin ninguna duda.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Plausible indica que algo resulta razonable o aceptable. No significa que ya esté demostrado.",
+    "tiempo": 25
+  },
+  {
+    "id": 237,
+    "categoria": "Razonamiento verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "En «Se realizó una revisión exhaustiva», ¿cómo fue la revisión?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Rápida y limitada a un detalle.",
+        "imagen": ""
+      },
+      {
+        "texto": "Ocasional y realizada por azar.",
+        "imagen": ""
+      },
+      {
+        "texto": "Incompleta y sin criterios definidos.",
+        "imagen": ""
+      },
+      {
+        "texto": "Minuciosa y que abarca todos los aspectos.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Exhaustiva describe una revisión que trata de agotar el asunto y cubrir sus aspectos.",
+    "tiempo": 25
+  },
+  {
+    "id": 238,
+    "categoria": "Razonamiento verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "¿Qué significa «Existe una discrepancia entre los dos informes»?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Ambos informes coinciden en todo.",
+        "imagen": ""
+      },
+      {
+        "texto": "Hay una diferencia o desacuerdo entre ellos.",
+        "imagen": ""
+      },
+      {
+        "texto": "Ambos informes fueron archivados.",
+        "imagen": ""
+      },
+      {
+        "texto": "Los dos informes carecen de autor.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Una discrepancia es una diferencia o desacuerdo; no permite deducir por sí sola cuál informe está equivocado.",
+    "tiempo": 25
+  },
+  {
+    "id": 239,
+    "categoria": "Razonamiento verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa: «Antes de entregar el documento, debemos subsanar los errores». Aquí, «subsanar» equivale a…",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Corregir.",
+        "imagen": ""
+      },
+      {
+        "texto": "Destacar.",
+        "imagen": ""
+      },
+      {
+        "texto": "Ocultar.",
+        "imagen": ""
+      },
+      {
+        "texto": "Repetir.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Subsanar una deficiencia o un error es corregirlo o remediarlo.",
+    "tiempo": 25
+  },
+  {
+    "id": 240,
+    "categoria": "Razonamiento verbal",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "En «El cambio resultó inocuo», «inocuo» significa…",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Que produjo mejoras obligatorias.",
+        "imagen": ""
+      },
+      {
+        "texto": "Que nunca llegó a aplicarse.",
+        "imagen": ""
+      },
+      {
+        "texto": "Que fue muy costoso.",
+        "imagen": ""
+      },
+      {
+        "texto": "Que no produjo daño.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Inocuo significa que no hace daño; no informa por sí solo sobre costo, utilidad o ejecución.",
+    "tiempo": 25
+  },
+  {
+    "id": 241,
+    "categoria": "Razonamiento verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "¿Cuál es el antónimo más directo de «explícito»?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Implícito.",
+        "imagen": ""
+      },
+      {
+        "texto": "Preciso.",
+        "imagen": ""
+      },
+      {
+        "texto": "Evidente.",
+        "imagen": ""
+      },
+      {
+        "texto": "Detallado.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Explícito es lo expresado directamente; implícito es lo que queda contenido o sobreentendido sin expresarse de forma directa.",
+    "tiempo": 25
+  },
+  {
+    "id": 242,
+    "categoria": "Razonamiento verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "En «Las medidas permitieron mitigar el problema», «mitigar» significa…",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Eliminarlo siempre por completo.",
+        "imagen": ""
+      },
+      {
+        "texto": "Reducir su intensidad.",
+        "imagen": ""
+      },
+      {
+        "texto": "Aumentar su gravedad.",
+        "imagen": ""
+      },
+      {
+        "texto": "Cambiarle el nombre.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Mitigar es atenuar o reducir. La palabra no garantiza la eliminación total del problema.",
+    "tiempo": 25
+  },
+  {
+    "id": 243,
+    "categoria": "Razonamiento verbal",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "En «Prepararon una alternativa para una eventual interrupción», «eventual» indica que la interrupción…",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Ya terminó definitivamente.",
+        "imagen": ""
+      },
+      {
+        "texto": "Podría ocurrir.",
+        "imagen": ""
+      },
+      {
+        "texto": "Ocurrirá con seguridad.",
+        "imagen": ""
+      },
+      {
+        "texto": "Se repite todos los días.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "En este contexto, eventual alude a una posibilidad o contingencia, no a un hecho seguro ni necesariamente periódico.",
+    "tiempo": 25
+  },
+  {
+    "id": 244,
+    "categoria": "Razonamiento verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa correctamente: «El equipo no solo revisó los datos, ___ corrigió el informe».",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "sino también",
+        "imagen": ""
+      },
+      {
+        "texto": "a pesar de",
+        "imagen": ""
+      },
+      {
+        "texto": "sin que",
+        "imagen": ""
+      },
+      {
+        "texto": "a menos que",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "La construcción correlativa es «no solo…, sino también…» y añade una segunda acción a la primera.",
+    "tiempo": 25
+  },
+  {
+    "id": 245,
+    "categoria": "Razonamiento verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "¿Qué significa «La autorización fue revocada»?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Fue concedida por primera vez.",
+        "imagen": ""
+      },
+      {
+        "texto": "Fue guardada sin modificaciones.",
+        "imagen": ""
+      },
+      {
+        "texto": "Fue dejada sin efecto.",
+        "imagen": ""
+      },
+      {
+        "texto": "Fue ampliada de forma automática.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Revocar una autorización significa retirarla o dejarla sin efecto.",
+    "tiempo": 25
+  },
+  {
+    "id": 246,
+    "categoria": "Atención y concentración",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "¿Qué alternativa reproduce exactamente el código 7K2M-9P4R-L6T8?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "7K2M-9P4R-L6T9",
+        "imagen": ""
+      },
+      {
+        "texto": "7K2M-9R4P-L6T8",
+        "imagen": ""
+      },
+      {
+        "texto": "7K2N-9P4R-L6T8",
+        "imagen": ""
+      },
+      {
+        "texto": "7K2M-9P4R-L6T8",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Debe conservarse cada carácter y su posición en los tres grupos. Las otras alternativas cambian N por M, el último dígito o el orden P/R.",
+    "tiempo": 15
+  },
+  {
+    "id": 247,
+    "categoria": "Atención y concentración",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "En ABABABA, ¿cuántas veces aparece ABA, permitiendo que las apariciones compartan letras?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "5",
+        "imagen": ""
+      },
+      {
+        "texto": "4",
+        "imagen": ""
+      },
+      {
+        "texto": "3",
+        "imagen": ""
+      },
+      {
+        "texto": "2",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "ABA empieza en las posiciones 1, 3 y 5. Como se permiten superposiciones, se cuentan las tres apariciones.",
+    "tiempo": 25
+  },
+  {
+    "id": 248,
+    "categoria": "Atención y concentración",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Cuenta únicamente el dígito 7 en esta cadena: 72717077270717.",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "8",
+        "imagen": ""
+      },
+      {
+        "texto": "9",
+        "imagen": ""
+      },
+      {
+        "texto": "6",
+        "imagen": ""
+      },
+      {
+        "texto": "7",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "El dígito 7 aparece en las posiciones 1, 3, 5, 7, 8, 10, 12, 14: 8 veces.",
+    "tiempo": 20
+  },
+  {
+    "id": 249,
+    "categoria": "Atención y concentración",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "¿Cuántos grupos son exactamente AA? AA, AB, BA, AA, BB, AA, AB, BA, AA.",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "4",
+        "imagen": ""
+      },
+      {
+        "texto": "3",
+        "imagen": ""
+      },
+      {
+        "texto": "6",
+        "imagen": ""
+      },
+      {
+        "texto": "5",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Los grupos AA ocupan los lugares 1,4,6 y 9. En total son cuatro.",
+    "tiempo": 15
+  },
+  {
+    "id": 250,
+    "categoria": "Atención y concentración",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "¿Cuántos números de esta lista son mayores que 20, impares y múltiplos de 3? 15, 21, 24, 27, 30, 33, 36, 39, 42, 45.",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "6",
+        "imagen": ""
+      },
+      {
+        "texto": "5",
+        "imagen": ""
+      },
+      {
+        "texto": "4",
+        "imagen": ""
+      },
+      {
+        "texto": "7",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Cumplen simultáneamente las tres condiciones 21,27,33,39 y 45: cinco números.",
+    "tiempo": 30
+  },
+  {
+    "id": 251,
+    "categoria": "Atención y concentración",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Compara por posiciones: M4P8Q2R6T9 y M4B8Q7R6V9. ¿En cuántas posiciones difieren?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "4",
+        "imagen": ""
+      },
+      {
+        "texto": "2",
+        "imagen": ""
+      },
+      {
+        "texto": "5",
+        "imagen": ""
+      },
+      {
+        "texto": "3",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Difieren en las posiciones 3 (P/B), 6 (2/7) y 9 (T/V). El resto coincide.",
+    "tiempo": 20
+  },
+  {
+    "id": 252,
+    "categoria": "Atención y concentración",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Suma solo los dígitos del código R4T7B3K8. ¿Qué resultado obtienes?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "22",
+        "imagen": ""
+      },
+      {
+        "texto": "18",
+        "imagen": ""
+      },
+      {
+        "texto": "20",
+        "imagen": ""
+      },
+      {
+        "texto": "24",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Los dígitos son 4,7,3 y 8. Su suma es 4+7+3+8=22.",
+    "tiempo": 20
+  },
+  {
+    "id": 253,
+    "categoria": "Atención y concentración",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "De AB3CD7EF2GH5, toma los caracteres de las posiciones 3, 6, 9 y 12, contando desde 1. ¿Qué cadena obtienes?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "3752",
+        "imagen": ""
+      },
+      {
+        "texto": "7325",
+        "imagen": ""
+      },
+      {
+        "texto": "3275",
+        "imagen": ""
+      },
+      {
+        "texto": "3725",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "En las posiciones 3,6,9 y 12 aparecen 3,7,2 y 5, en ese orden.",
+    "tiempo": 25
+  },
+  {
+    "id": 254,
+    "categoria": "Atención y concentración",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Escribe el código 8041962357 en orden completamente inverso.",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "7532691480",
+        "imagen": ""
+      },
+      {
+        "texto": "7532691048",
+        "imagen": ""
+      },
+      {
+        "texto": "7532961408",
+        "imagen": ""
+      },
+      {
+        "texto": "7532691408",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Leyendo desde el último carácter al primero se obtiene 7,5,3,2,6,9,1,4,0,8.",
+    "tiempo": 25
+  },
+  {
+    "id": 255,
+    "categoria": "Atención y concentración",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "¿Cuál par contiene dos códigos exactamente iguales?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "P6R9T2 / P6R9T7",
+        "imagen": ""
+      },
+      {
+        "texto": "Q3B8Z1 / Q3B8Z1",
+        "imagen": ""
+      },
+      {
+        "texto": "N7M2V4 / N7N2V4",
+        "imagen": ""
+      },
+      {
+        "texto": "Q3B8Z1 / Q3B8ZI",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Q3B8Z1 coincide carácter por carácter. En los demás pares hay un cambio 1/I, M/N o 2/7.",
+    "tiempo": 15
+  },
+  {
+    "id": 256,
+    "categoria": "Atención y concentración",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Todas las fechas pertenecen al mismo año y usan día/mes. ¿Cuál ocurre primero?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "09/05",
+        "imagen": ""
+      },
+      {
+        "texto": "05/09",
+        "imagen": ""
+      },
+      {
+        "texto": "11/04",
+        "imagen": ""
+      },
+      {
+        "texto": "04/11",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Primero se compara el mes: abril (04) precede a mayo (05), septiembre (09) y noviembre (11).",
+    "tiempo": 20
+  },
+  {
+    "id": 257,
+    "categoria": "Atención y concentración",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "¿Cuántos valores distintos hay en 12, 21, 12, 33, 21, 45, 33, 54, 45, 12?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "4",
+        "imagen": ""
+      },
+      {
+        "texto": "7",
+        "imagen": ""
+      },
+      {
+        "texto": "6",
+        "imagen": ""
+      },
+      {
+        "texto": "5",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Los valores distintos son 12,21,33,45 y 54. Las repeticiones no añaden un valor nuevo.",
+    "tiempo": 20
+  },
+  {
+    "id": 258,
+    "categoria": "Atención y concentración",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Cuenta solo la palabra completa «sol»: sol, solo, solar, sol, soldar, sol, suelo, solo.",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "5",
+        "imagen": ""
+      },
+      {
+        "texto": "4",
+        "imagen": ""
+      },
+      {
+        "texto": "2",
+        "imagen": ""
+      },
+      {
+        "texto": "3",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "«Sol» aparece como palabra completa en los lugares 1,4 y 6. «Solo», «solar» y «soldar» no cuentan.",
+    "tiempo": 20
+  },
+  {
+    "id": 259,
+    "categoria": "Atención y concentración",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "¿Cuántos códigos empiezan por B y terminan en un número par? B12, A14, B17, C22, B24, B30, A32, B45.",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "4",
+        "imagen": ""
+      },
+      {
+        "texto": "5",
+        "imagen": ""
+      },
+      {
+        "texto": "3",
+        "imagen": ""
+      },
+      {
+        "texto": "2",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Cumplen ambas condiciones B12, B24 y B30. B17 y B45 tienen número impar.",
+    "tiempo": 25
+  },
+  {
+    "id": 260,
+    "categoria": "Atención y concentración",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "¿Cuál lista está en orden alfabético ascendente, comparando letra por letra?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "cable, cacao, cabra, cadena",
+        "imagen": ""
+      },
+      {
+        "texto": "cable, cabra, cadena, cacao",
+        "imagen": ""
+      },
+      {
+        "texto": "cabra, cable, cacao, cadena",
+        "imagen": ""
+      },
+      {
+        "texto": "cable, cabra, cacao, cadena",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Primero van las palabras que empiezan con cab, luego cac y cad. Dentro de cab, cable precede a cabra porque l precede a r.",
+    "tiempo": 25
+  },
+  {
+    "id": 261,
+    "categoria": "Patrones",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Usa A–Z sin Ñ y vuelve a A después de Z. Continúa: B, E, I, N, T, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "B",
+        "imagen": ""
+      },
+      {
+        "texto": "A",
+        "imagen": ""
+      },
+      {
+        "texto": "Y",
+        "imagen": ""
+      },
+      {
+        "texto": "Z",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Los saltos son +3,+4,+5,+6 y +7. T ocupa el lugar 20; avanzar 7 llega al 27, equivalente a A al volver al inicio.",
+    "tiempo": 30
+  },
+  {
+    "id": 262,
+    "categoria": "Patrones",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Usa A–Z sin Ñ. Continúa: Z, W, S, N, H, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "C",
+        "imagen": ""
+      },
+      {
+        "texto": "D",
+        "imagen": ""
+      },
+      {
+        "texto": "A",
+        "imagen": ""
+      },
+      {
+        "texto": "B",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Se retrocede 3,4,5,6 y 7 posiciones. Desde H, posición 8, retroceder 7 lleva a A.",
+    "tiempo": 30
+  },
+  {
+    "id": 263,
+    "categoria": "Patrones",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Usa A–Z sin Ñ. ¿Qué par sigue? AZ, CX, EV, GT, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "JS",
+        "imagen": ""
+      },
+      {
+        "texto": "IQ",
+        "imagen": ""
+      },
+      {
+        "texto": "HS",
+        "imagen": ""
+      },
+      {
+        "texto": "IR",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "La primera letra avanza dos posiciones: A,C,E,G,I. La segunda retrocede dos: Z,X,V,T,R.",
+    "tiempo": 25
+  },
+  {
+    "id": 264,
+    "categoria": "Patrones",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Usa A–Z sin Ñ. Continúa: A2, C6, E12, G20, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "I28",
+        "imagen": ""
+      },
+      {
+        "texto": "H30",
+        "imagen": ""
+      },
+      {
+        "texto": "J32",
+        "imagen": ""
+      },
+      {
+        "texto": "I30",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Las letras avanzan de dos en dos. Los números son n(n+1): 2,6,12,20,30.",
+    "tiempo": 30
+  },
+  {
+    "id": 265,
+    "categoria": "Patrones",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Continúa los grupos: A, BB, CCC, DDDD, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "EEEE",
+        "imagen": ""
+      },
+      {
+        "texto": "EEEEEE",
+        "imagen": ""
+      },
+      {
+        "texto": "FFFFF",
+        "imagen": ""
+      },
+      {
+        "texto": "EEEEE",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Se avanza una letra y se aumenta en uno el número de repeticiones. La quinta letra, E, aparece cinco veces.",
+    "tiempo": 20
+  },
+  {
+    "id": 266,
+    "categoria": "Patrones",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Continúa esta secuencia de horarios: 07:10, 07:25, 07:45, 08:10, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "08:35",
+        "imagen": ""
+      },
+      {
+        "texto": "08:45",
+        "imagen": ""
+      },
+      {
+        "texto": "08:40",
+        "imagen": ""
+      },
+      {
+        "texto": "08:30",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Los intervalos son 15,20 y 25 minutos. Sigue un intervalo de 30 minutos: 08:10 + 30 min = 08:40.",
+    "tiempo": 30
+  },
+  {
+    "id": 267,
+    "categoria": "Patrones",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Una flecha gira siempre un cuarto de vuelta en sentido horario. Completa: ↑, →, ↓, ←, ↑, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "←",
+        "imagen": ""
+      },
+      {
+        "texto": "↓",
+        "imagen": ""
+      },
+      {
+        "texto": "↑",
+        "imagen": ""
+      },
+      {
+        "texto": "→",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "El ciclo horario es arriba, derecha, abajo, izquierda. Después de arriba corresponde derecha.",
+    "tiempo": 15
+  },
+  {
+    "id": 268,
+    "categoria": "Patrones",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa la secuencia de grupos: ○, △△, ○○○, △△△△, ○○○○○, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "○○○○○○",
+        "imagen": ""
+      },
+      {
+        "texto": "△△△△△△",
+        "imagen": ""
+      },
+      {
+        "texto": "△△△△△△△",
+        "imagen": ""
+      },
+      {
+        "texto": "△△△△△",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "La cantidad aumenta de uno en uno y la figura alterna círculo y triángulo. El sexto grupo contiene seis triángulos.",
+    "tiempo": 20
+  },
+  {
+    "id": 269,
+    "categoria": "Patrones",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Completa siguiendo la misma relación en cada fila: (2, 4, 8); (3, 9, 27); (4, 16, ¿?).",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "64",
+        "imagen": ""
+      },
+      {
+        "texto": "32",
+        "imagen": ""
+      },
+      {
+        "texto": "48",
+        "imagen": ""
+      },
+      {
+        "texto": "256",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Cada fila contiene un número, su cuadrado y su cubo. Para 4, corresponde 4³ = 64.",
+    "tiempo": 30
+  },
+  {
+    "id": 270,
+    "categoria": "Patrones",
+    "dificultad": "Muy difícil",
+    "tipo": "texto",
+    "pregunta": "Completa con la misma regla en las tres filas: (5, 2, 21); (6, 4, 20); (8, 3, ¿?).",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "55",
+        "imagen": ""
+      },
+      {
+        "texto": "64",
+        "imagen": ""
+      },
+      {
+        "texto": "53",
+        "imagen": ""
+      },
+      {
+        "texto": "61",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "El tercer valor es la diferencia de cuadrados: 5²−2²=21 y 6²−4²=20. Por tanto 8²−3²=64−9=55.",
+    "tiempo": 45
+  },
+  {
+    "id": 271,
+    "categoria": "Patrones",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "En estas fichas se usan valores de 0 a 6; al superar 6 se vuelve a 0. Continúa: [1|2], [2|4], [3|6], [4|1], ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "[5|3]",
+        "imagen": ""
+      },
+      {
+        "texto": "[5|2]",
+        "imagen": ""
+      },
+      {
+        "texto": "[6|3]",
+        "imagen": ""
+      },
+      {
+        "texto": "[5|4]",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "La izquierda aumenta 1. La derecha aumenta 2 con retorno a 0 tras 6: 2,4,6,1,3. Sigue [5|3].",
+    "tiempo": 35
+  },
+  {
+    "id": 272,
+    "categoria": "Patrones",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Un código primero invierte la palabra y después avanza cada letra 2 posiciones en A–Z, sin Ñ y con retorno al inicio. ¿Cómo codifica SOL?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "NPS",
+        "imagen": ""
+      },
+      {
+        "texto": "NQU",
+        "imagen": ""
+      },
+      {
+        "texto": "MPT",
+        "imagen": ""
+      },
+      {
+        "texto": "UQN",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "SOL invertido es LOS. Luego L→N, O→Q y S→U, de modo que se obtiene NQU.",
+    "tiempo": 35
+  },
+  {
+    "id": 273,
+    "categoria": "Patrones",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Usa A–Z sin Ñ. Continúa: A, B, C, E, H, M, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "V",
+        "imagen": ""
+      },
+      {
+        "texto": "U",
+        "imagen": ""
+      },
+      {
+        "texto": "T",
+        "imagen": ""
+      },
+      {
+        "texto": "W",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Las posiciones son 1,2,3,5,8,13. Cada una suma las dos anteriores; sigue 21, que corresponde a U.",
+    "tiempo": 35
+  },
+  {
+    "id": 274,
+    "categoria": "Patrones",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Usa A–Z sin Ñ. Completa: A, Z, B, Y, C, X, D, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "V",
+        "imagen": ""
+      },
+      {
+        "texto": "W",
+        "imagen": ""
+      },
+      {
+        "texto": "U",
+        "imagen": ""
+      },
+      {
+        "texto": "E",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Una serie avanza desde A y la otra retrocede desde Z. Las posiciones pares son Z,Y,X,W.",
+    "tiempo": 25
+  },
+  {
+    "id": 275,
+    "categoria": "Patrones",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Desde la primera posición se repite el ciclo ○, △, □, ◇, ★. ¿Qué símbolo ocupa la posición 83?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "○",
+        "imagen": ""
+      },
+      {
+        "texto": "□",
+        "imagen": ""
+      },
+      {
+        "texto": "△",
+        "imagen": ""
+      },
+      {
+        "texto": "◇",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "83 = 16×5+3. Tras 16 ciclos completos, corresponde el tercer símbolo del ciclo: □.",
+    "tiempo": 30
+  },
+  {
+    "id": 276,
+    "categoria": "Patrones",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Completa la matriz siguiendo el desplazamiento entre filas. Fila 1: ○ △ □. Fila 2: △ □ ○. Fila 3: □ ○ ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "◇",
+        "imagen": ""
+      },
+      {
+        "texto": "△",
+        "imagen": ""
+      },
+      {
+        "texto": "□",
+        "imagen": ""
+      },
+      {
+        "texto": "○",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Cada fila desplaza el primer símbolo al final. La tercera fila debe ser □ ○ △.",
+    "tiempo": 25
+  },
+  {
+    "id": 277,
+    "categoria": "Patrones",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Se define a ☆ b = 2a + b². ¿Cuánto vale 3 ☆ 4?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "22",
+        "imagen": ""
+      },
+      {
+        "texto": "20",
+        "imagen": ""
+      },
+      {
+        "texto": "25",
+        "imagen": ""
+      },
+      {
+        "texto": "28",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Se sustituye a=3 y b=4: 2×3 + 4² = 6+16 = 22.",
+    "tiempo": 25
+  },
+  {
+    "id": 278,
+    "categoria": "Patrones",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "Un código transforma ABCD en BADC y EFGH en FEHG. Aplicando la misma regla, ¿en qué transforma IJKL?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "JILK",
+        "imagen": ""
+      },
+      {
+        "texto": "LKJI",
+        "imagen": ""
+      },
+      {
+        "texto": "IJLK",
+        "imagen": ""
+      },
+      {
+        "texto": "JIKL",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Se intercambian las letras dentro de cada pareja: IJ→JI y KL→LK. El resultado es JILK.",
+    "tiempo": 25
+  },
+  {
+    "id": 279,
+    "categoria": "Patrones",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Completa repitiendo el mismo ciclo de operaciones: 4, 6, 18, 17, 19, 57, 56, 58, ¿?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "174",
+        "imagen": ""
+      },
+      {
+        "texto": "173",
+        "imagen": ""
+      },
+      {
+        "texto": "116",
+        "imagen": ""
+      },
+      {
+        "texto": "175",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "El ciclo es sumar 2, multiplicar por 3 y restar 1. Después de 56+2=58, corresponde 58×3=174.",
+    "tiempo": 35
+  },
+  {
+    "id": 280,
+    "categoria": "Patrones",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Se conservan los símbolos que aparecen en solo uno de dos grupos. Por ejemplo, {○,△} y {△,□} producen {○,□}. ¿Qué producen {○,□,★} y {□,★,◇}?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "{□,★}",
+        "imagen": ""
+      },
+      {
+        "texto": "{○,★}",
+        "imagen": ""
+      },
+      {
+        "texto": "{○,□,★,◇}",
+        "imagen": ""
+      },
+      {
+        "texto": "{○,◇}",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "□ y ★ aparecen en ambos grupos y se eliminan. Solo ○ y ◇ aparecen en uno de los dos grupos.",
+    "tiempo": 35
+  },
+  {
+    "id": 281,
+    "categoria": "Razonamiento espacial",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Se pinta por fuera un cubo de 4×4×4 cubitos y luego se separa. ¿Cuántos cubitos tienen exactamente una cara pintada?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "8",
+        "imagen": ""
+      },
+      {
+        "texto": "16",
+        "imagen": ""
+      },
+      {
+        "texto": "24",
+        "imagen": ""
+      },
+      {
+        "texto": "32",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "En cada una de las seis caras, los cubitos que no están en aristas forman un centro de 2×2. Total: 6×4=24.",
+    "tiempo": 35
+  },
+  {
+    "id": 282,
+    "categoria": "Razonamiento espacial",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Se pinta por fuera un cubo de 5×5×5 cubitos y luego se separa. ¿Cuántos cubitos no tienen ninguna cara pintada?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "36",
+        "imagen": ""
+      },
+      {
+        "texto": "25",
+        "imagen": ""
+      },
+      {
+        "texto": "8",
+        "imagen": ""
+      },
+      {
+        "texto": "27",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Los cubitos interiores forman un cubo de (5−2) por lado: 3³=27.",
+    "tiempo": 30
+  },
+  {
+    "id": 283,
+    "categoria": "Razonamiento espacial",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Se pinta toda la superficie de un bloque de 4×3×2 cubitos y luego se separa. ¿Cuántos cubitos tienen exactamente tres caras pintadas?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "12",
+        "imagen": ""
+      },
+      {
+        "texto": "4",
+        "imagen": ""
+      },
+      {
+        "texto": "8",
+        "imagen": ""
+      },
+      {
+        "texto": "16",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Cada uno de los ocho vértices contiene un cubito con tres caras expuestas. Como las tres dimensiones son al menos 2, son ocho cubitos distintos.",
+    "tiempo": 35
+  },
+  {
+    "id": 284,
+    "categoria": "Razonamiento espacial",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Un bloque sólido de 5×4×3 cubitos tiene ¿cuántos cubitos con al menos una cara en el exterior?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "48",
+        "imagen": ""
+      },
+      {
+        "texto": "52",
+        "imagen": ""
+      },
+      {
+        "texto": "60",
+        "imagen": ""
+      },
+      {
+        "texto": "54",
+        "imagen": ""
+      }
+    ],
+    "correcta": 3,
+    "explicacion": "Hay 5×4×3=60 cubitos. Los interiores son (5−2)(4−2)(3−2)=6. Exteriores: 60−6=54.",
+    "tiempo": 35
+  },
+  {
+    "id": 285,
+    "categoria": "Razonamiento espacial",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "En una cuadrícula caminas 7 unidades al este, 4 al norte, 2 al oeste y 16 al sur. ¿A qué distancia recta del inicio terminas?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "13",
+        "imagen": ""
+      },
+      {
+        "texto": "12",
+        "imagen": ""
+      },
+      {
+        "texto": "17",
+        "imagen": ""
+      },
+      {
+        "texto": "29",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "El desplazamiento neto es 5 al este y 12 al sur. Por Pitágoras: √(5²+12²)=√169=13.",
+    "tiempo": 35
+  },
+  {
+    "id": 286,
+    "categoria": "Razonamiento espacial",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "El punto (2, −5) se refleja primero respecto al eje Y y luego gira 180° alrededor del origen. ¿Dónde queda?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "(5, 2)",
+        "imagen": ""
+      },
+      {
+        "texto": "(2, 5)",
+        "imagen": ""
+      },
+      {
+        "texto": "(−2, 5)",
+        "imagen": ""
+      },
+      {
+        "texto": "(−2, −5)",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Reflejar en Y cambia x de signo: (−2,−5). Girar 180° cambia ambos signos: (2,5).",
+    "tiempo": 35
+  },
+  {
+    "id": 287,
+    "categoria": "Razonamiento espacial",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "En un reloj analógico ideal, ¿cuántos grados mide el ángulo menor entre las manecillas a las 3:20?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "20°",
+        "imagen": ""
+      },
+      {
+        "texto": "30°",
+        "imagen": ""
+      },
+      {
+        "texto": "40°",
+        "imagen": ""
+      },
+      {
+        "texto": "10°",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "El minutero está a 20×6=120° desde las 12. La aguja horaria está a 3×30+20×0,5=100°. La diferencia es 20°.",
+    "tiempo": 40
+  },
+  {
+    "id": 288,
+    "categoria": "Razonamiento espacial",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Un cubo tiene A arriba, F abajo, B al frente, E detrás, C a la derecha y D a la izquierda. Se vuelca 90° sobre su cara derecha C, que queda apoyada. ¿Qué cara queda arriba?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "D",
+        "imagen": ""
+      },
+      {
+        "texto": "B",
+        "imagen": ""
+      },
+      {
+        "texto": "F",
+        "imagen": ""
+      },
+      {
+        "texto": "A",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "La cara C queda abajo. Su cara opuesta, D, pasa a quedar arriba.",
+    "tiempo": 30
+  },
+  {
+    "id": 289,
+    "categoria": "Razonamiento espacial",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "Una hoja se dobla tres veces por la mitad, superponiendo todas sus capas en cada paso. Se hace una perforación que atraviesa todas las capas, fuera de pliegues y bordes. ¿Cuántos agujeros aparecen al desplegarla?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "6",
+        "imagen": ""
+      },
+      {
+        "texto": "8",
+        "imagen": ""
+      },
+      {
+        "texto": "12",
+        "imagen": ""
+      },
+      {
+        "texto": "4",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Cada doblez duplica las capas: 2,4,8. Una perforación que atraviesa las ocho capas produce ocho agujeros distintos al desplegar.",
+    "tiempo": 30
+  },
+  {
+    "id": 290,
+    "categoria": "Razonamiento espacial",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "El punto (1, 2) se traslada 3 unidades a la derecha y 1 hacia abajo; después gira 90° en sentido antihorario alrededor del origen. ¿Cuál es su posición final?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "(−1, 4)",
+        "imagen": ""
+      },
+      {
+        "texto": "(1, −4)",
+        "imagen": ""
+      },
+      {
+        "texto": "(−4, 1)",
+        "imagen": ""
+      },
+      {
+        "texto": "(4, 1)",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "La traslación lleva a (4,1). Un giro antihorario de 90° transforma (x,y) en (−y,x), por tanto llega a (−1,4).",
+    "tiempo": 35
+  },
+  {
+    "id": 291,
+    "categoria": "Comprensión verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "«Para renovar la inscripción se necesitan un documento vigente y una carta de autorización». Pablo presenta un documento vigente, pero no la carta. Según el texto, ¿qué ocurre?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Su documento necesariamente está vencido.",
+        "imagen": ""
+      },
+      {
+        "texto": "Todavía no reúne todos los requisitos.",
+        "imagen": ""
+      },
+      {
+        "texto": "Ya reúne todos los requisitos.",
+        "imagen": ""
+      },
+      {
+        "texto": "La renovación ya fue aprobada.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "El texto exige dos documentos. Contar con uno no basta mientras falte la carta.",
+    "tiempo": 35
+  },
+  {
+    "id": 292,
+    "categoria": "Comprensión verbal",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "«La asistencia pasó del 80% al 92% durante el año en que empezó un programa de tutoría». ¿Qué conclusión está respaldada por ese dato, sin añadir información?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "El programa fue la única causa del aumento.",
+        "imagen": ""
+      },
+      {
+        "texto": "La asistencia aumentó, pero el dato por sí solo no demuestra la causa.",
+        "imagen": ""
+      },
+      {
+        "texto": "Todos los estudiantes asistieron sin faltar.",
+        "imagen": ""
+      },
+      {
+        "texto": "La asistencia aumentará todos los años.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "El dato establece un aumento coincidente en el tiempo. No identifica por sí solo una causa exclusiva ni permite predecir los siguientes años.",
+    "tiempo": 35
+  },
+  {
+    "id": 293,
+    "categoria": "Comprensión verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "«La sede Norte atiende de 9:00 a 13:00 y la sede Sur de 12:00 a 17:00». ¿A cuál de estas horas están abiertas ambas?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "10:30",
+        "imagen": ""
+      },
+      {
+        "texto": "12:30",
+        "imagen": ""
+      },
+      {
+        "texto": "16:00",
+        "imagen": ""
+      },
+      {
+        "texto": "13:30",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Los horarios se superponen entre las 12:00 y las 13:00. De las alternativas, solo 12:30 está dentro de ambos.",
+    "tiempo": 35
+  },
+  {
+    "id": 294,
+    "categoria": "Comprensión verbal",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "«Los proyectos viables pasarán a una segunda revisión; esa revisión determinará cuáles recibirán financiación». ¿Qué significa que un proyecto sea viable?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Pasará a otra revisión, sin financiación garantizada todavía.",
+        "imagen": ""
+      },
+      {
+        "texto": "Ya recibió todo el dinero solicitado.",
+        "imagen": ""
+      },
+      {
+        "texto": "Queda excluido de cualquier nueva revisión.",
+        "imagen": ""
+      },
+      {
+        "texto": "Recibirá financiación de manera automática.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "La viabilidad permite avanzar a la segunda revisión. La decisión de financiar se toma en esa etapa posterior.",
+    "tiempo": 35
+  },
+  {
+    "id": 295,
+    "categoria": "Comprensión verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "«La revisión termina el miércoles. La entrega, prevista inicialmente para el jueves, se trasladó al viernes». ¿Cuál es el día de entrega actualizado?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Miércoles",
+        "imagen": ""
+      },
+      {
+        "texto": "Jueves",
+        "imagen": ""
+      },
+      {
+        "texto": "Viernes",
+        "imagen": ""
+      },
+      {
+        "texto": "Sábado",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "La fecha vigente es viernes. Jueves era la previsión inicial y miércoles corresponde a la revisión.",
+    "tiempo": 35
+  },
+  {
+    "id": 296,
+    "categoria": "Comprensión verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "«El modelo R procesa más rápido que S, pero consume más energía. El texto no compara sus precios». ¿Qué afirmación reproduce la información disponible?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "R y S tienen el mismo consumo y precio.",
+        "imagen": ""
+      },
+      {
+        "texto": "S es más lento y cuesta necesariamente menos.",
+        "imagen": ""
+      },
+      {
+        "texto": "R es más rápido que S y consume más energía.",
+        "imagen": ""
+      },
+      {
+        "texto": "R es más rápido, más barato y consume menos.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Solo se comparan rapidez y consumo. El texto no permite establecer ninguna relación de precios.",
+    "tiempo": 35
+  },
+  {
+    "id": 297,
+    "categoria": "Comprensión verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "«Los libros se prestan por siete días, excepto las obras de consulta, que solo pueden utilizarse en la sala». ¿Qué regla se aplica a una obra de consulta?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Se presta por un solo día automáticamente.",
+        "imagen": ""
+      },
+      {
+        "texto": "Se presta por siete días como todos los libros.",
+        "imagen": ""
+      },
+      {
+        "texto": "Debe utilizarse dentro de la sala.",
+        "imagen": ""
+      },
+      {
+        "texto": "No puede ser consultada por ningún lector.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 2,
+    "explicacion": "Las obras de consulta son una excepción al préstamo externo y el texto permite su uso en sala.",
+    "tiempo": 35
+  },
+  {
+    "id": 298,
+    "categoria": "Comprensión verbal",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "«Al menos ocho de los doce participantes completaron la actividad». ¿Qué se puede asegurar sobre quienes no la completaron?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Son como máximo cuatro.",
+        "imagen": ""
+      },
+      {
+        "texto": "Son exactamente ocho.",
+        "imagen": ""
+      },
+      {
+        "texto": "Son como mínimo cuatro.",
+        "imagen": ""
+      },
+      {
+        "texto": "Son exactamente cuatro.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "Si completaron ocho o más de doce, quedaron sin completar cuatro o menos. No se conoce la cantidad exacta.",
+    "tiempo": 35
+  },
+  {
+    "id": 299,
+    "categoria": "Comprensión verbal",
+    "dificultad": "Media",
+    "tipo": "texto",
+    "pregunta": "«El equipo recomendó prolongar el ensayo piloto antes de decidir la compra definitiva». ¿En qué estado está la compra según el texto?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "La compra fue cancelada de forma irreversible.",
+        "imagen": ""
+      },
+      {
+        "texto": "La decisión definitiva aún está pendiente.",
+        "imagen": ""
+      },
+      {
+        "texto": "La compra ya fue realizada.",
+        "imagen": ""
+      },
+      {
+        "texto": "La compra se aprobó sin condiciones.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 1,
+    "explicacion": "Se propone ampliar el ensayo antes de tomar una decisión; el texto no presenta una compra aprobada ni cancelada.",
+    "tiempo": 35
+  },
+  {
+    "id": 300,
+    "categoria": "Comprensión verbal",
+    "dificultad": "Difícil",
+    "tipo": "texto",
+    "pregunta": "«El estudio encontró mejoras en tres escuelas de una ciudad. Sus autores proponen repetirlo en otras regiones». ¿Cuál es la interpretación más prudente?",
+    "imagen": "",
+    "opciones": [
+      {
+        "texto": "Hay resultados locales y se busca comprobar si se repiten en otros contextos.",
+        "imagen": ""
+      },
+      {
+        "texto": "No hubo ninguna mejora en las escuelas estudiadas.",
+        "imagen": ""
+      },
+      {
+        "texto": "Las otras regiones ya obtuvieron los mismos resultados.",
+        "imagen": ""
+      },
+      {
+        "texto": "La mejora está garantizada en todas las escuelas del país.",
+        "imagen": ""
+      }
+    ],
+    "correcta": 0,
+    "explicacion": "El alcance observado es local. Repetir el estudio permitiría evaluar si el resultado se mantiene fuera de ese contexto.",
+    "tiempo": 35
   }
 ]
